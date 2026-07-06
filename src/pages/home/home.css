@@ -8,9 +8,6 @@
     flex-direction: column;
     gap: 18px;
 
-    background:
-        url("../../assets/images/backgrounds/feature-back.png") center/cover no-repeat;
-
     background-size: 85%;
     background-position: right -120px bottom -180px;
     background-repeat: no-repeat;
@@ -45,7 +42,7 @@
     border: 1px none var(--black);
     border-radius: 0px;
     display: flex;
-    gap: 18px;
+    gap: 24px;
     align-items: center;
     justify-content: center;
 }
@@ -53,14 +50,14 @@
 .vehicle-tabs-button {
     background: transparent;
     border: 0;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1;
     padding: 4px 2px;
     cursor: pointer;
 }
 
 .vehicle-tabs-button[aria-selected='true'] {
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 .hero-section {
@@ -73,7 +70,7 @@
 }
 
 .hero-info {
-    width: 32%;
+    width: 33%;
 }
 
 .hero-title {
@@ -96,22 +93,19 @@
 }
 
 .vehicle-viewer {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.vehicle-image {
-    width: 720px;
-    max-width: 100%;
-    min-height: 250px;
-    border: 1px solid var(--black);
-    object-fit: contain;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+}
+
+.vehicle-image {
+    width: min(720px, 100%);
+    height: 420px;
+    object-fit: contain;
+    object-position: center;
+    background: transparent;
+    flex-shrink: 0;
 }
 
 .navigation-arrows {
@@ -150,10 +144,10 @@
 .action-button {
     min-width: 156px;
     height: 52px;
-    border: 1px solid var(--black);
+    border: 2px solid var(--black);
     border-radius: 0px;
-    background: transparent;
-    font-size: 20px;
+    background: var(--white);
+    font-size: 24px;
     cursor: pointer;
 }
 
@@ -170,6 +164,12 @@
     align-items: center;
     font-size: 24px;
     background: #fff;
+}
+
+.action-button:hover,
+.chat-button:hover {
+    background: var(--black);
+    color: white;
 }
 
 @media (max-width: 980px) {
@@ -196,6 +196,12 @@
 
     .vehicle-viewer {
         width: 100%;
+    }
+
+    .vehicle-image {
+        width: 100%;
+        width: 820px;
+        height: 480px;
     }
 
     .navigation-arrows {

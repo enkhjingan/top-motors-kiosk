@@ -1,8 +1,24 @@
+import { useState } from 'react';
+
 import LogoGroup from '../../components/logoGroup';
 import LanguageSwitcher from '../../components/languageSwitcher';
+import { getVehicles } from '../../services/vehicleService';
 import './home.css';
 
-const vehicleTabs = ['RAV4', 'LC300', 'LC250', 'LC70', 'Alphard', 'Hilux', 'Granvia'];
+const vehicles = getVehicles();
+const vehicleImageModules = import.meta.glob('../../assets/images/vehicles/**/*.{jpg,jpeg,png}', {
+    eager: true,
+    import: 'default'
+});
+
+function resolveVehicleImage(assetPath) {
+    if (!assetPath) {
+        return '';
+    }
+
+    const modulePath = assetPath.replace('/src/assets/images/', '../../assets/images/');
+    return vehicleImageModules[modulePath] || assetPath;
+}
 
 function Header() {
     return (
@@ -13,18 +29,19 @@ function Header() {
     );
 }
 
-function VehicleTabs() {
+function VehicleTabs({ items, selectedId, onSelect }) {
     return (
         <section className="vehicle-tabs" aria-label="Vehicle Tabs">
             <ul className="vehicle-tabs-list">
-                {vehicleTabs.map((tab, index) => (
-                    <li key={tab} className="vehicle-tabs-item">
+                {items.map((vehicle) => (
+                    <li key={vehicle.id} className="vehicle-tabs-item">
                         <button
                             type="button"
                             className="vehicle-tabs-button"
-                            aria-selected={index === 0}
+                            aria-selected={vehicle.id === selectedId}
+                            onClick={() => onSelect(vehicle.id)}
                         >
-                            {tab}
+                            {vehicle.tabLabel || vehicle.name}
                         </button>
                     </li>
                 ))}
@@ -33,20 +50,20 @@ function VehicleTabs() {
     );
 }
 
-function HeroInfo() {
+function HeroInfo({ vehicle }) {
     return (
         <section className="hero-info" aria-label="Hero Info">
-            <h1 className="hero-title">RAV4 HYBRID</h1>
-            <p className="hero-price">Starting from ₮199,900,000</p>
-            <p className="hero-description">Hybrid AWD, premium mid-size SUV</p>
+            <h1 className="hero-title">{vehicle.name}</h1>
+            <p className="hero-price">{vehicle.price}</p>
+            <p className="hero-description">{vehicle.description}</p>
         </section>
     );
 }
 
-function VehicleViewer() {
+function VehicleViewer({ vehicle }) {
     return (
         <section className="vehicle-viewer" aria-label="Vehicle Viewer">
-            <div className="vehicle-image">Vehicle Image</div>
+            <img className="vehicle-image" src={resolveVehicleImage(vehicle.primaryImage)} alt={vehicle.name} />
         </section>
     );
 }
@@ -86,14 +103,17 @@ function ChatButton() {
 }
 
 export default function Home() {
+    const [selectedVehicleId, setSelectedVehicleId] = useState(vehicles[0]?.id || '');
+    const selectedVehicle = vehicles.find((vehicle) => vehicle.id === selectedVehicleId) || vehicles[0];
+
     return (
         <div className="home-page">
             <Header />
-            <VehicleTabs />
+            <VehicleTabs items={vehicles} selectedId={selectedVehicle.id} onSelect={setSelectedVehicleId} />
 
             <section className="hero-section">
-                <HeroInfo />
-                <VehicleViewer />
+                <HeroInfo vehicle={selectedVehicle} />
+                <VehicleViewer vehicle={selectedVehicle} />
                 <NavigationArrows />
             </section>
 

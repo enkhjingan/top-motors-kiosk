@@ -1,0 +1,133 @@
+[
+	{
+		"id": "rav4",
+		"name": "RAV4 Hybrid",
+		"tabLabel": "RAV4",
+		"price": "Starting from ₮199,900,000",
+		"description": "Hybrid AWD, premium mid-size SUV.",
+		"folder": "rav4",
+		"primaryImage": "/src/assets/images/vehicles/rav4/black-front.jpg",
+		"images": [
+			"/src/assets/images/vehicles/rav4/black-front.jpg",
+			"/src/assets/images/vehicles/rav4/black-back.jpg",
+			"/src/assets/images/vehicles/rav4/blue-front.jpg",
+			"/src/assets/images/vehicles/rav4/blue-back.jpg",
+			"/src/assets/images/vehicles/rav4/green-front.jpg",
+			"/src/assets/images/vehicles/rav4/green-back.jpg",
+			"/src/assets/images/vehicles/rav4/grey-front.jpg",
+			"/src/assets/images/vehicles/rav4/grey-back.jpg",
+			"/src/assets/images/vehicles/rav4/red-front.jpg",
+			"/src/assets/images/vehicles/rav4/red-back.jpg"
+		]
+	},
+	{
+		"id": "lc300",
+		"name": "Land Cruiser 300",
+		"tabLabel": "LC300",
+		"price": "Starting from ₮485,000,000",
+		"description": "Full-size SUV with powerful performance and luxury comfort.",
+		"folder": "LC300",
+		"primaryImage": "/src/assets/images/vehicles/LC300/black_front.jpg",
+		"images": [
+			"/src/assets/images/vehicles/LC300/black_front.jpg",
+			"/src/assets/images/vehicles/LC300/grey_front.jpg",
+			"/src/assets/images/vehicles/LC300/red_back.jpg",
+			"/src/assets/images/vehicles/LC300/whiteB_front.jpg",
+			"/src/assets/images/vehicles/LC300/white_back.jpg",
+			"/src/assets/images/vehicles/LC300/white_front.jpg"
+		]
+	},
+	{
+		"id": "lc70",
+		"name": "Land Cruiser 70",
+		"tabLabel": "LC70",
+		"price": "Starting from ₮165,000,000",
+		"description": "Heavy-duty off-road utility vehicle built for rugged terrain.",
+		"folder": "LC70",
+		"primaryImage": "/src/assets/images/vehicles/LC70/white_side.jpg",
+		"images": [
+			"/src/assets/images/vehicles/LC70/darkblue_side.jpg",
+			"/src/assets/images/vehicles/LC70/darkgrey_side.jpg",
+			"/src/assets/images/vehicles/LC70/darkyellow_side.jpg",
+			"/src/assets/images/vehicles/LC70/grey_side.jpg",
+			"/src/assets/images/vehicles/LC70/red_side.jpg",
+			"/src/assets/images/vehicles/LC70/white_side.jpg",
+			"/src/assets/images/vehicles/LC70/yellow_side.jpg"
+		]
+	},
+	{
+		"id": "hilux",
+		"name": "Hilux",
+		"tabLabel": "HILUX",
+		"price": "Starting from ₮145,000,000",
+		"description": "Durable pickup engineered for work, travel, and off-road use.",
+		"folder": "Hilux",
+		"primaryImage": "/src/assets/images/vehicles/Hilux/white_front.png",
+		"images": [
+			"/src/assets/images/vehicles/Hilux/grey_front.png",
+			"/src/assets/images/vehicles/Hilux/white_front.png"
+		]
+	},
+	{
+		"id": "hiace",
+		"name": "Hiace",
+		"tabLabel": "HIACE",
+		"price": "Starting from ₮128,000,000",
+		"description": "Spacious commercial van designed for passengers and cargo.",
+		"folder": "Hiace",
+		"primaryImage": "/src/assets/images/vehicles/Hiace/white_front.jpg",
+		"images": [
+			"/src/assets/images/vehicles/Hiace/grey_back.jpg",
+			"/src/assets/images/vehicles/Hiace/grey_front.jpg",
+			"/src/assets/images/vehicles/Hiace/grey_side.jpg",
+			"/src/assets/images/vehicles/Hiace/white_back.jpg",
+			"/src/assets/images/vehicles/Hiace/white_front.jpg",
+			"/src/assets/images/vehicles/Hiace/white_side.jpg"
+		]
+	},
+	{
+		"id": "granvia",
+		"name": "Granvia",
+		"tabLabel": "GRANVIA",
+		"price": "Starting from ₮172,000,000",
+		"description": "Premium people mover with refined cabin comfort and versatility.",
+		"folder": "Granvia",
+		"primaryImage": "/src/assets/images/vehicles/Granvia/white_front.jpg",
+		"images": [
+			"/src/assets/images/vehicles/Granvia/black_front.jpg",
+			"/src/assets/images/vehicles/Granvia/white_front.jpg"
+		]
+	},
+	{
+		"id": "prado",
+		"name": "LC150 Prado",
+		"tabLabel": "PRADO",
+		"price": "Starting from ₮238,000,000",
+		"description": "Balanced SUV combining city comfort with proven off-road capability.",
+		"folder": "LC150Prado",
+		"primaryImage": "/src/assets/images/vehicles/LC150Prado/white_front.jpg",
+		"images": [
+			"/src/assets/images/vehicles/LC150Prado/black_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/blue_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/blueblue_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/darkblue_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/grey_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/red_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/sand_front.jpg",
+			"/src/assets/images/vehicles/LC150Prado/white_front.jpg"
+		]
+	},
+	{
+		"id": "lc200",
+		"name": "Land Cruiser 200",
+		"tabLabel": "LC200",
+		"price": "Starting from ₮355,000,000",
+		"description": "Flagship SUV with strong road presence, space, and touring comfort.",
+		"folder": "LC200",
+		"primaryImage": "/src/assets/images/vehicles/LCC200/white_front.jpg",
+		"images": [
+			"/src/assets/images/vehicles/LC200/black_front.jpg",
+			"/src/assets/images/vehicles/LC200/white_front.jpg"
+		]
+	}
+]
