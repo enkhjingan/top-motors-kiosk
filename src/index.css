@@ -1,0 +1,155 @@
+:root {
+  --toyota-red: #fd0000;
+  --primary: #fd0000;
+  --primary-light: #ffe5e5;
+  --primary-dark: #c40017;
+  --black: #212121;
+  --white: #ffffff;
+  --gray-100: #f7f7f7;
+  --gray-200: #ececec;
+  --gray-300: #d9d9d9;
+  --gray-500: #666666;
+  --max-width: 1440px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  --transition: 0.25s ease;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-BookIt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-RegularIt.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-SemiboldIt.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-BoldIt.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ToyotaType';
+  src: url('/src/assets/fonts/toyotaType/ToyotaType-BlackIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: ToyotaType, sans-serif;
+  background: var(--white);
+  color: var(--black);
+  overflow: hidden;
+}
+
+.logo-group {
+  display: flex;
+}
+
+.logo {
+  height: 2rem;
+  object-fit: contain;
+}
+
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  z-index: 100;
+}
+
+.lang-btn {
+  padding: 0.5rem 1rem;
+  border: 0 solid var(--black);
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid var(--black);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover,
+.lang-btn.active {
+  background-color: var(--black);
+  color: white;
+}
