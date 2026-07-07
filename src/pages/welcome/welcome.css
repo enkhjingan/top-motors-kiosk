@@ -3,9 +3,13 @@
     position: relative;
     width: 100vw;
     min-height: 100vh;
+    padding: clamp(20px, 2vw, 36px);
+
     display: flex;
     flex-direction: column;
+    gap: clamp(16px, 2vh, 28px);
     overflow: hidden;
+    
     background:
         linear-gradient(
             rgba(0, 0, 0, 0.55),
@@ -28,16 +32,13 @@
 }
 
 .welcome-header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    height: 4rem;
 
     display: flex;
     justify-content: flex-end;
 
-    padding: 4rem 4rem;
-    z-index: 10;
+    padding:clamp(2rem,4vw,4rem);
 }
 
 .welcome-main {

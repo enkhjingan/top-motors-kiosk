@@ -1,133 +1,130 @@
 [
 	{
-		"id": "rav4",
-		"name": "RAV4 Hybrid",
-		"tabLabel": "RAV4",
-		"price": "Starting from ₮199,900,000",
-		"description": "Hybrid AWD, premium mid-size SUV.",
-		"folder": "rav4",
-		"primaryImage": "/src/assets/images/vehicles/rav4/black-front.jpg",
+		"id": "lc300",
+		"name": "LC300",
+		"nameMn": "LC300",
+		"tabLabel": "LC300",
+		"tabLabelMn": "LC300",
+		"price": "Starting from ₮485,000,000",
+		"priceMn": "Үнэ ₮485,000,000-с",
+		"description": "Full-size SUV with powerful performance and luxury comfort.",
+		"descriptionMn": "Хүчирхэг үзүүлэлт, тансаг тав тухтай full-size SUV.",
+		"folder": "LC300",
+		"primaryImage": "/src/assets/images/vehicles/LC300/lc300.png",
 		"images": [
-			"/src/assets/images/vehicles/rav4/black-front.jpg",
-			"/src/assets/images/vehicles/rav4/black-back.jpg",
-			"/src/assets/images/vehicles/rav4/blue-front.jpg",
-			"/src/assets/images/vehicles/rav4/blue-back.jpg",
-			"/src/assets/images/vehicles/rav4/green-front.jpg",
-			"/src/assets/images/vehicles/rav4/green-back.jpg",
-			"/src/assets/images/vehicles/rav4/grey-front.jpg",
-			"/src/assets/images/vehicles/rav4/grey-back.jpg",
-			"/src/assets/images/vehicles/rav4/red-front.jpg",
-			"/src/assets/images/vehicles/rav4/red-back.jpg"
+			"/src/assets/images/vehicles/LC300/lc300.png"
 		]
 	},
 	{
-		"id": "lc300",
-		"name": "Land Cruiser 300",
-		"tabLabel": "LC300",
-		"price": "Starting from ₮485,000,000",
-		"description": "Full-size SUV with powerful performance and luxury comfort.",
-		"folder": "LC300",
-		"primaryImage": "/src/assets/images/vehicles/LC300/black_front.jpg",
+		"id": "lc250",
+		"name": "LC Prado 250",
+		"nameMn": "LC Prado 250",
+		"tabLabel": "LC250",
+		"tabLabelMn": "LC250",
+		"price": "Starting from ₮238,000,000",
+		"priceMn": "Үнэ ₮238,000,000-с",
+		"description": "Balanced SUV combining city comfort with proven off-road capability.",
+		"descriptionMn": "Хотын тав тух ба бартаат замын чадварыг хослуулсан SUV.",
+		"folder": "LC250",
+		"primaryImage": "/src/assets/images/vehicles/LC250/lc250.png",
 		"images": [
-			"/src/assets/images/vehicles/LC300/black_front.jpg",
-			"/src/assets/images/vehicles/LC300/grey_front.jpg",
-			"/src/assets/images/vehicles/LC300/red_back.jpg",
-			"/src/assets/images/vehicles/LC300/whiteB_front.jpg",
-			"/src/assets/images/vehicles/LC300/white_back.jpg",
-			"/src/assets/images/vehicles/LC300/white_front.jpg"
+			"/src/assets/images/vehicles/LC250/lc250.png"
 		]
 	},
 	{
 		"id": "lc70",
-		"name": "Land Cruiser 70",
+		"name": "LC70 Utility Vehicle",
+		"nameMn": "LC70 Utility Vehicle",
 		"tabLabel": "LC70",
+		"tabLabelMn": "LC70",
 		"price": "Starting from ₮165,000,000",
+		"priceMn": "Үнэ ₮165,000,000-с",
 		"description": "Heavy-duty off-road utility vehicle built for rugged terrain.",
+		"descriptionMn": "Бартаат замд зориулагдсан хүнд даацын utility vehicle.",
 		"folder": "LC70",
-		"primaryImage": "/src/assets/images/vehicles/LC70/white_side.jpg",
+		"primaryImage": "/src/assets/images/vehicles/LC70/lc79.png",
 		"images": [
-			"/src/assets/images/vehicles/LC70/darkblue_side.jpg",
-			"/src/assets/images/vehicles/LC70/darkgrey_side.jpg",
-			"/src/assets/images/vehicles/LC70/darkyellow_side.jpg",
-			"/src/assets/images/vehicles/LC70/grey_side.jpg",
-			"/src/assets/images/vehicles/LC70/red_side.jpg",
-			"/src/assets/images/vehicles/LC70/white_side.jpg",
-			"/src/assets/images/vehicles/LC70/yellow_side.jpg"
+			"/src/assets/images/vehicles/LC70/lc79.png"
 		]
 	},
 	{
 		"id": "hilux",
 		"name": "Hilux",
+		"nameMn": "Hilux",
 		"tabLabel": "HILUX",
+		"tabLabelMn": "HILUX",
 		"price": "Starting from ₮145,000,000",
+		"priceMn": "Үнэ ₮145,000,000-с",
 		"description": "Durable pickup engineered for work, travel, and off-road use.",
+		"descriptionMn": "Ажил, аялал, бартаат замд тохирсон бат бөх pickup.",
 		"folder": "Hilux",
-		"primaryImage": "/src/assets/images/vehicles/Hilux/white_front.png",
+		"primaryImage": "/src/assets/images/vehicles/Hilux/hilux.png",
 		"images": [
-			"/src/assets/images/vehicles/Hilux/grey_front.png",
-			"/src/assets/images/vehicles/Hilux/white_front.png"
+			"/src/assets/images/vehicles/Hilux/hilux.png"
+		]
+	},
+	{
+		"id": "rav4",
+		"name": "Rav4 6th Gen",
+		"nameMn": "RAV4 6-р үе",
+		"tabLabel": "RAV4",
+		"tabLabelMn": "RAV4",
+		"price": "Starting from ₮199,900,000",
+		"priceMn": "Үнэ ₮199,900,000-с",
+		"description": "Hybrid AWD, premium mid-size SUV.",
+		"descriptionMn": "Hybrid AWD, дундаж ангиллын premium SUV.",
+		"folder": "RAV4",
+		"primaryImage": "/src/assets/images/vehicles/RAV4/rav4_red.png",
+		"images": [
+			"/src/assets/images/vehicles/RAV4/rav4_red.png"
 		]
 	},
 	{
 		"id": "hiace",
 		"name": "Hiace",
+		"nameMn": "Hiace",
 		"tabLabel": "HIACE",
+		"tabLabelMn": "HIACE",
 		"price": "Starting from ₮128,000,000",
+		"priceMn": "Үнэ ₮128,000,000-с",
 		"description": "Spacious commercial van designed for passengers and cargo.",
+		"descriptionMn": "Зорчигч болон ачаанд зориулагдсан цэлгэр commercial ван.",
 		"folder": "Hiace",
-		"primaryImage": "/src/assets/images/vehicles/Hiace/white_front.jpg",
+		"primaryImage": "/src/assets/images/vehicles/Hiace/hiace.png",
 		"images": [
-			"/src/assets/images/vehicles/Hiace/grey_back.jpg",
-			"/src/assets/images/vehicles/Hiace/grey_front.jpg",
-			"/src/assets/images/vehicles/Hiace/grey_side.jpg",
-			"/src/assets/images/vehicles/Hiace/white_back.jpg",
-			"/src/assets/images/vehicles/Hiace/white_front.jpg",
-			"/src/assets/images/vehicles/Hiace/white_side.jpg"
+			"/src/assets/images/vehicles/Hiace/hiace.png"
+		]
+	},
+	{
+		"id": "alphard",
+		"name": "Alphard",
+		"nameMn": "Alphard",
+		"tabLabel": "ALPHARD",
+		"tabLabelMn": "ALPHARD",
+		"price": "Starting from ₮172,000,000",
+		"priceMn": "Үнэ ₮172,000,000-с",
+		"description": "Premium people mover with refined cabin comfort and versatility.",
+		"descriptionMn": "Дээд зэрэглэлийн, тав тухтай, олон зориулалттай MPV.",
+		"folder": "Alphard",
+		"primaryImage": "/src/assets/images/vehicles/Alphard/alphard.png",
+		"images": [
+			"/src/assets/images/vehicles/Alphard/alphard.png"
 		]
 	},
 	{
 		"id": "granvia",
 		"name": "Granvia",
+		"nameMn": "Granvia",
 		"tabLabel": "GRANVIA",
+		"tabLabelMn": "GRANVIA",
 		"price": "Starting from ₮172,000,000",
+		"priceMn": "Үнэ ₮172,000,000-с",
 		"description": "Premium people mover with refined cabin comfort and versatility.",
+		"descriptionMn": "Тансаг хийцтэй, олон хүний суудалтай premium MPV.",
 		"folder": "Granvia",
-		"primaryImage": "/src/assets/images/vehicles/Granvia/white_front.jpg",
+		"primaryImage": "/src/assets/images/vehicles/Granvia/granvia.png",
 		"images": [
-			"/src/assets/images/vehicles/Granvia/black_front.jpg",
-			"/src/assets/images/vehicles/Granvia/white_front.jpg"
-		]
-	},
-	{
-		"id": "prado",
-		"name": "LC150 Prado",
-		"tabLabel": "PRADO",
-		"price": "Starting from ₮238,000,000",
-		"description": "Balanced SUV combining city comfort with proven off-road capability.",
-		"folder": "LC150Prado",
-		"primaryImage": "/src/assets/images/vehicles/LC150Prado/white_front.jpg",
-		"images": [
-			"/src/assets/images/vehicles/LC150Prado/black_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/blue_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/blueblue_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/darkblue_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/grey_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/red_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/sand_front.jpg",
-			"/src/assets/images/vehicles/LC150Prado/white_front.jpg"
-		]
-	},
-	{
-		"id": "lc200",
-		"name": "Land Cruiser 200",
-		"tabLabel": "LC200",
-		"price": "Starting from ₮355,000,000",
-		"description": "Flagship SUV with strong road presence, space, and touring comfort.",
-		"folder": "LC200",
-		"primaryImage": "/src/assets/images/vehicles/LCC200/white_front.jpg",
-		"images": [
-			"/src/assets/images/vehicles/LC200/black_front.jpg",
-			"/src/assets/images/vehicles/LC200/white_front.jpg"
+			"/src/assets/images/vehicles/Granvia/granvia.png"
 		]
 	}
 ]
