@@ -1,5 +1,4 @@
-import LogoGroup from './logoGroup';
-import LanguageSwitcher from './languageSwitcher';
+import LanguageSwitcher from '../../components/languageSwitcher';
 import VehicleTabs from './vehicleTabs';
 
 function Header() {
@@ -11,5 +10,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;
