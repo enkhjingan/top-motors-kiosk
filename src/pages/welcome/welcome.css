@@ -11,11 +11,11 @@
     overflow: hidden;
     
     background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.55),
-            rgba(0, 0, 0, 0.55)
-        ),
-        url('/src/assets/images/backgrounds/welcome.jpg') center/cover no-repeat;
+        url('/src/assets/images/backgrounds/welcome.jpeg') center/cover no-repeat;
+        HEIGHT: 100%;
+    
+    background-size:40%;
+    background-position:right center;
 }
 
 .MNlogo {
@@ -36,62 +36,76 @@
     height: 4rem;
 
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
 
-    padding:clamp(2rem,4vw,4rem);
+    padding: clamp(1rem,2vw,2rem) clamp(2rem,4vw,4rem);
 }
 
 .welcome-main {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     flex: 1;
-    margin: 4rem 4rem 4rem 4rem;
+    padding-left: clamp(2rem,4vw,8rem);
+    padding-bottom: clamp(2rem,4vw,8rem);
+    margin:0;
 }
 
 .welcome-content {
     position: relative;
     z-index: 2;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    min-height: 40vh;
-    text-align: left;
-    gap: 0.75rem;
-    padding: 0 1.5rem;
+
+    max-width: 1000px;
+    width: 100%;
+
+    gap: 0.5rem;
 }
 
 .welcome-content h1 {
-    font-size: clamp(3.5rem, 8vw, 6.5rem);
-    color: var(--white);
-    margin-bottom: 1rem;
+    font-size: clamp(2rem, 4vw, 4.5rem);
+    color: var(--black);
     font-weight: 700;
-    line-height: 1.05;
-    width: 80%;
+    line-height: .95;
+    max-width: 40ch;
+    word-break: keep-all;
 }
 
 .welcome-content p {
-    font-size: clamp(1rem, 2vw, 1.4rem);
-    color: rgba(255, 255, 255, 0.72);
-    font-weight: 500;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    color: var(--primary);
+    font-weight: 600;
     line-height: 1.6;
     width: 100%;
 }
 
 .start-button {
-    position: absolute;
-    right: clamp(0rem, 0vw, 0rem);
+    position: static;
+    margin-top: 1rem;
+
+    left: clamp(1.5rem, 3vw, 3rem);
     bottom: clamp(3rem, 6vh, 5rem);
-    z-index: 20;
+
     min-width: 220px;
-    height: 70px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--white);
-    color: var(--black);
-    border: 2px solid var(--black);
+    text-align: left;
+    padding:  1rem;
+
+    background: var(--primary);
+    color: var(--white);
+    border: 2px solid var(--primary);
     border-radius: 0px;
-    font-size: 1.15rem;
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
     font-weight: 700;
     cursor: pointer;
     transition: all .3s ease;
@@ -100,5 +114,6 @@
 .start-button:hover,
 .start-button:active {
     background-color: var(--black);
+    border: 2px solid var(--black);
     color: white;
 }

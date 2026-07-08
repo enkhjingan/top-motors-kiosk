@@ -5,7 +5,17 @@ import LanguageSwitcher from '../../components/languageSwitcher';
 import { useLanguage } from '../../hooks/useLanguage';
 import { translations } from '../../utils/translations';
 import './welcome.css';
+import LogoGroup from '../../components/logoGroup';
 
+
+function Header() {
+    return (
+        <header className="welcome-header">
+            <LogoGroup/>
+            <LanguageSwitcher />
+        </header>
+    );
+}
 export default function Welcome() {
     const navigate = useNavigate();
     const { language } = useLanguage();
@@ -13,18 +23,15 @@ export default function Welcome() {
 
     return (
         <main className="welcome-page">
-            <header className="welcome-header">
-                <LanguageSwitcher />
-            </header>
+            <Header />
             <section className="welcome-main">
                 <div className="welcome-content">
-                    <LogoWelcome />
-                    <h1>{content.title}</h1>
                     <p>{content.subtitle}</p>
+                    <h1>{content.title}</h1>
+                    <button className="start-button" type="button" onClick={() => navigate('/home')}>
+                        {content.startButton}
+                    </button>
                 </div>
-                <button className="start-button" type="button" onClick={() => navigate('/home')}>
-                    {content.startButton}
-                </button>
             </section>
         </main>
     );

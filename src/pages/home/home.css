@@ -27,35 +27,7 @@
 
     background: var(--white);
     gap: 18px;
-    padding:clamp(2rem,4vw,4rem);
-}
-
-.vehicle-tabs {
-    width: 100%;
-}
-
-.vehicle-tabs-list {
-    list-style: none;
-    margin: 0;
-    padding: 8px 14px;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.vehicle-tabs-button {
-    background: transparent;
-    border: 0;
-    font-size: clamp(1rem,1.2vw,1.3rem);
-    line-height: 1;
-    padding: 4px 2px;
-    cursor: pointer;
-}
-
-.vehicle-tabs-button[aria-selected='true'] {
-    font-weight: 800;
-    border-bottom: 2px solid var(--black);
+    padding: clamp(1rem,2vw,2rem) clamp(2rem,4vw,4rem);
 }
 
 .hero-section{

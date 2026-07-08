@@ -1,14 +1,14 @@
 export const translations = {
     welcome: {
         eng: {
-            title: 'WELCOME TO TOYOTA TOP MOTORS',
-            subtitle: 'Explore our premium vehicle collection',
-            startButton: 'Get Started'
+            title: 'FIND YOUR PERFECT TOYOTA',
+            subtitle: 'TOP MOTORS DIGITAL SHOWROOM',
+            startButton: 'Explore Vehicles'
         },
         mn: {
-            title: 'TOYOTA TOP MOTORS-Д ТАВТАЙ МОРИЛНО УУ',
-            subtitle: 'Манайд зарагдаж буй автомашины цуглуулгыг үзэх',
-            startButton: 'Эхлэх'
+            title: 'TOYOTA АВТОМАШИНАА ОЛОХОД ТАНЬ ТУСАЛЪЯ',
+            subtitle: 'ТОП МОТОРС ДИЖИТАЛ ШОУРУМ',
+            startButton: 'Автомашин үзэх'
         }
     },
     homeScreen: {

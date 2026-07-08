@@ -1,14 +1,15 @@
-import LanguageSwitcher from '../../components/languageSwitcher';
+import LogoGroup from './logoGroup';
+import LanguageSwitcher from './languageSwitcher';
+import VehicleTabs from './vehicleTabs';
 
 function Header() {
     return (
-        <header className="home-header">
-            <div className="home-header-left">
-                <LogoGroup />
-            </div>
-            <div className="home-header-right">
-                <LanguageSwitcher />
-            </div>
+        <header className="header">
+            <LogoGroup />
+            <VehicleTabs />
+            <LanguageSwitcher />
         </header>
     );
 }
+
+export default Header;
