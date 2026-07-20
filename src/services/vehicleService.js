@@ -1,4 +1,4 @@
-import vehicles from '../assets/data/vehicles.json';
+import vehicles from '../assets/data/machineDatas.json';
 
 export function getVehicles() {
   return vehicles;

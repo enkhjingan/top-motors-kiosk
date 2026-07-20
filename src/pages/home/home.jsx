@@ -1,118 +1,24 @@
-import { useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
-import LogoGroup from '../../components/logoGroup';
+import ColorSelector from '../../components/ColorSelector';
 import LanguageSwitcher from '../../components/languageSwitcher';
+import LogoGroup from '../../components/logoGroup';
+import Specifications from '../../components/Specifications';
+import TrimSelector from '../../components/TrimSelector';
+import VehicleGallery from '../../components/VehicleGallery';
 import VehicleTabs from '../../components/vehicleTabs';
 import { useLanguage } from '../../hooks/useLanguage';
 import { getVehicles } from '../../services/vehicleService';
 import './home.css';
 
 const vehicles = getVehicles();
-const vehicleImageModules = import.meta.glob('../../assets/images/vehicles/**/*.{jpg,jpeg,png}', {
+
+const vehicleImageModules = import.meta.glob('../../assets/images/vehicles/**/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}', {
     eager: true,
     import: 'default'
 });
 
-const FEATURED_VEHICLE_ID = 'lc250';
-
-const trimOptions = [
-    { id: 'standard', label: { eng: 'Standard', mn: 'Standard' } },
-    { id: 'premium', label: { eng: 'Premium', mn: 'Premium' } },
-    { id: 'adventure', label: { eng: 'Adventure', mn: 'Adventure' } }
-];
-
-const specMap = {
-    lc250: {
-        standard: {
-            eng: [
-                { label: 'Engine', value: '2.4L Turbo gasoline' },
-                { label: 'Transmission', value: '8AT automatic' },
-                { label: 'Drive', value: 'Full-time 4WD' },
-                { label: 'Seats', value: '7' },
-                { label: 'Wheel', value: '18”' },
-                { label: 'Interior', value: 'Black fabric cabin' },
-                { label: 'LED', value: 'Standard LED lights' }
-            ],
-            mn: [
-                { label: 'Хөдөлгүүр', value: '2.4L Turbo бензин' },
-                { label: 'Transmission', value: '8AT автомат' },
-                { label: 'Drive', value: 'Full-time 4WD' },
-                { label: 'Суудал', value: '7' },
-                { label: 'Дугуй', value: '18”' },
-                { label: 'Дотор', value: 'Хар даавуун салон' },
-                { label: 'LED', value: 'Энгийн LED гэрэл' }
-            ]
-        },
-        premium: {
-            eng: [
-                { label: 'Engine', value: '2.4L Turbo gasoline' },
-                { label: 'Transmission', value: '8AT automatic' },
-                { label: 'Drive', value: 'Full-time 4WD' },
-                { label: 'Seats', value: '7' },
-                { label: 'Interior', value: 'Leather cabin' },
-                { label: 'Monitor', value: 'Panoramic monitor' },
-                { label: 'Audio', value: 'JBL Audio' },
-                { label: 'Wheels', value: '20” alloy wheels' },
-                { label: 'Tailgate', value: 'Powered tailgate' }
-            ],
-            mn: [
-                { label: 'Хөдөлгүүр', value: '2.4L Turbo бензин' },
-                { label: 'Transmission', value: '8AT автомат' },
-                { label: 'Drive', value: 'Full-time 4WD' },
-                { label: 'Суудал', value: '7' },
-                { label: 'Дотор', value: 'Leather салон' },
-                { label: 'Monitor', value: 'Panoramic monitor' },
-                { label: 'Audio', value: 'JBL Audio' },
-                { label: 'Дугуй', value: '20” alloy wheels' },
-                { label: 'Tailgate', value: 'Powered tailgate' }
-            ]
-        },
-        adventure: {
-            eng: [
-                { label: 'Engine', value: '2.4L Turbo gasoline' },
-                { label: 'Drive', value: 'Full-time 4WD' },
-                { label: 'Terrain', value: 'Multi-Terrain Select' },
-                { label: 'Control', value: 'Crawl Control' },
-                { label: 'Lock', value: 'Rear Differential Lock' },
-                { label: 'Rails', value: 'Roof rails' },
-                { label: 'Bumper', value: 'Off-road bumper' },
-                { label: 'Tyres', value: 'All Terrain tires' }
-            ],
-            mn: [
-                { label: 'Хөдөлгүүр', value: '2.4L Turbo бензин' },
-                { label: 'Drive', value: 'Full-time 4WD' },
-                { label: 'Terrain', value: 'Multi-Terrain Select' },
-                { label: 'Control', value: 'Crawl Control' },
-                { label: 'Lock', value: 'Rear Differential Lock' },
-                { label: 'Rails', value: 'Roof rails' },
-                { label: 'Bumper', value: 'Off-road bumper' },
-                { label: 'Дугуй', value: 'All Terrain tires' }
-            ]
-        }
-    }
-};
-
-const featuredLabelMap = {
-    lc250: {
-        eng: { category: 'SUV', title: 'LAND CRUISER 250', priceLabel: 'Starting from', price: '₮199,900,000', cta: 'Leasing calculator' },
-        mn: { category: 'SUV', title: 'LAND CRUISER 250', priceLabel: 'Эхлэх үнэ', price: '₮199,900,000', cta: 'Лизинг тооцоолох' }
-    },
-    lc300: {
-        eng: { category: 'SUV', title: 'LAND CRUISER 300', priceLabel: 'Starting from', price: '₮485,000,000', cta: 'Leasing calculator' },
-        mn: { category: 'SUV', title: 'LAND CRUISER 300', priceLabel: 'Эхлэх үнэ', price: '₮485,000,000', cta: 'Лизинг тооцоолох' }
-    }
-};
-
-const heroLabelByVehicle = {
-    lc250: 'LAND CRUISER 250',
-    lc300: 'LAND CRUISER 300',
-    rav4: 'RAV4',
-    hilux: 'HILUX',
-    lc70: 'LC70',
-    hiace: 'HIACE',
-    alphard: 'ALPHARD',
-    granvia: 'GRANVIA'
-};
+const FEATURED_VEHICLE_ID = 'lc300';
 
 function resolveVehicleImage(assetPath) {
     if (!assetPath) {
@@ -123,12 +29,68 @@ function resolveVehicleImage(assetPath) {
     return vehicleImageModules[modulePath] || assetPath;
 }
 
-function localizeField(vehicle, fieldName, language) {
+function localizeVehicleField(vehicle, fieldName, language) {
     if (language === 'mn') {
         return vehicle[`${fieldName}Mn`] || vehicle[fieldName] || '';
     }
 
     return vehicle[fieldName] || '';
+}
+
+function getFirstTrim(vehicle) {
+    return vehicle?.trims?.[0] || null;
+}
+
+function getVariants(vehicle) {
+    if (vehicle?.variants?.length) {
+        return vehicle.variants;
+    }
+
+    return vehicle?.trims?.length
+        ? [{ id: 'default', name: vehicle.name, nameMn: vehicle.nameMn || vehicle.name, trims: vehicle.trims }]
+        : [];
+}
+
+function getFirstVariant(vehicle) {
+    return getVariants(vehicle)[0] || null;
+}
+
+function getFirstTrimInVariant(variant) {
+    return variant?.trims?.[0] || null;
+}
+
+function getColorOptions(vehicle, variant, trim) {
+    if (vehicle?.colors?.length) {
+        return vehicle.colors;
+    }
+
+    if (variant?.colors?.length) {
+        return variant.colors;
+    }
+
+    return trim?.colors || [];
+}
+
+function getFirstColor(colors) {
+    return colors?.[0] || null;
+}
+
+function buildFrameSequence(heroImage) {
+    if (!heroImage) {
+        return [];
+    }
+
+    const match = heroImage.match(/^(.*?)(\d+)(\.[^.]+)$/);
+    if (!match) {
+        return [heroImage];
+    }
+
+    const [ , prefix, frameNumber, extension ] = match;
+    if (frameNumber !== '1') {
+        return [heroImage];
+    }
+
+    return Array.from({ length: 16 }, (_, index) => `${prefix}${index + 1}${extension}`);
 }
 
 function Header({ items, selectedId, onSelect, language }) {
@@ -141,94 +103,23 @@ function Header({ items, selectedId, onSelect, language }) {
     );
 }
 
-function HeroInfo({ vehicle, language }) {
-    const meta = featuredLabelMap[vehicle.id]?.[language] || {
-        category: 'SUV',
-        title: heroLabelByVehicle[vehicle.id] || localizeField(vehicle, 'name', language),
-        priceLabel: language === 'mn' ? 'Эхлэх үнэ' : 'Starting from',
-        price: localizeField(vehicle, 'price', language),
-        cta: language === 'mn' ? 'Лизинг тооцоолох' : 'Leasing calculator'
-    };
+function HeroInfo({ vehicle, variant, trim, language }) {
+    const variantName = language === 'mn' ? variant?.nameMn || variant?.name : variant?.name;
+    const trimName = language === 'mn' ? trim?.nameMn || trim?.name : trim?.name;
+    const displayName = trimName && variantName && trimName !== variantName ? `${variantName} · ${trimName}` : variantName || trimName;
 
     return (
         <section className="hero-info" aria-label="Hero Info">
-            <p className="hero-category">{meta.category}</p>
-            <h1 className="hero-title">{meta.title}</h1>
+            <p className="hero-category">{localizeVehicleField(vehicle, 'category', language)}</p>
+            <h1 className="hero-title">{localizeVehicleField(vehicle, 'name', language)}</h1>
+            <p className="hero-trim-name">{displayName}</p>
             <div className="hero-price-block">
-                <p className="hero-price-label">{meta.priceLabel}</p>
-                <p className="hero-price">{meta.price}</p>
+                <p className="hero-price-label">{language === 'mn' ? 'Эхлэх үнэ' : 'Starting from'}</p>
+                <p className="hero-price">{language === 'mn' ? trim?.priceMn || trim?.price : trim?.price}</p>
             </div>
             <button type="button" className="hero-cta">
-                {meta.cta}
+                {language === 'mn' ? 'Лизинг тооцоолох' : 'Leasing Calculator'}
             </button>
-        </section>
-    );
-}
-
-function VehicleViewer({ vehicle, language, onPrev, onNext }) {
-    const touchStartX = useRef(null);
-
-    function handleTouchStart(e) {
-        touchStartX.current = e.touches[0].clientX;
-    }
-
-    function handleTouchEnd(e) {
-        if (touchStartX.current === null) return;
-        const delta = e.changedTouches[0].clientX - touchStartX.current;
-        if (delta < -50) onNext();
-        else if (delta > 50) onPrev();
-        touchStartX.current = null;
-    }
-
-    const colorOptions = ['#f6f6f6', '#9b1414', '#c4bfb7'];
-
-    return (
-        <section className="vehicle-viewer" aria-label="Vehicle Viewer" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
-            <div className="vehicle-frame">
-                <img className="vehicle-image" src={resolveVehicleImage(vehicle.primaryImage)} alt={localizeField(vehicle, 'name', language)} />
-            </div>
-            <div className="vehicle-swatches" aria-label="Vehicle colors">
-                {colorOptions.map((color, index) => (
-                    <button key={color} type="button" className={`vehicle-swatch ${index === 1 ? 'is-active' : ''}`} style={{ '--swatch-color': color }} aria-label={`Color ${index + 1}`} />
-                ))}
-            </div>
-        </section>
-    );
-}
-
-function TrimSelector({ language, selectedTrim, onSelectTrim }) {
-
-    return (
-        <section className="trim-selector" aria-label="Trim selector">
-            {trimOptions.map((trim) => (
-                <button
-                    key={trim.id}
-                    type="button"
-                    className={`trim-button ${selectedTrim === trim.id ? 'is-active' : ''}`}
-                    onClick={() => onSelectTrim(trim.id)}
-                >
-                    {trim.label[language]}
-                </button>
-            ))}
-        </section>
-    );
-}
-
-function SpecsStrip({ vehicle, language, selectedTrim }) {
-    const vehicleSpecs = specMap[vehicle.id]?.[selectedTrim] || specMap[vehicle.id];
-    const specs = vehicleSpecs?.[language] || [
-        { label: language === 'mn' ? 'Хөдөлгүүр' : 'Engine', value: localizeField(vehicle, 'description', language) },
-        { label: language === 'mn' ? 'Үнэ' : 'Price', value: localizeField(vehicle, 'price', language) }
-    ];
-
-    return (
-        <section className="specs-strip" aria-label="Vehicle specifications">
-            {specs.map((spec) => (
-                <div key={spec.label} className="spec-item">
-                    <p className="spec-label">{spec.label}</p>
-                    {spec.value ? <p className="spec-value">{spec.value}</p> : null}
-                </div>
-            ))}
         </section>
     );
 }
@@ -243,45 +134,174 @@ function ChatButton() {
 
 export default function Home() {
     const { language } = useLanguage();
+
     const initialIndex = Math.max(0, vehicles.findIndex((vehicle) => vehicle.id === FEATURED_VEHICLE_ID));
     const [selectedIndex, setSelectedIndex] = useState(initialIndex);
-    const [selectedTrim, setSelectedTrim] = useState('standard');
-    const selectedVehicle = vehicles[selectedIndex];
 
-    function goPrev() {
-        setSelectedIndex((i) => (i - 1 + vehicles.length) % vehicles.length);
-    }
+    const selectedVehicle = vehicles[selectedIndex] || vehicles[0];
+    const firstVariant = getFirstVariant(selectedVehicle);
+    const firstTrim = getFirstTrimInVariant(firstVariant);
 
-    function goNext() {
-        setSelectedIndex((i) => (i + 1) % vehicles.length);
-    }
+    const [selectedVariantId, setSelectedVariantId] = useState(firstVariant?.id || '');
+    const [selectedTrimId, setSelectedTrimId] = useState(firstTrim?.id || '');
+    const [selectedColorName, setSelectedColorName] = useState(getFirstColor(firstTrim)?.name || '');
+    const [activeGalleryIndex, setActiveGalleryIndex] = useState(0);
+    const [isGalleryMode, setIsGalleryMode] = useState(false);
+
+    const variants = useMemo(() => getVariants(selectedVehicle), [selectedVehicle]);
+
+    const selectedVariant = useMemo(() => {
+        if (!variants.length) {
+            return null;
+        }
+
+        return variants.find((variant) => variant.id === selectedVariantId) || variants[0];
+    }, [variants, selectedVariantId]);
+
+    const selectedTrim = useMemo(() => {
+        if (!selectedVariant?.trims?.length) {
+            return null;
+        }
+
+        return selectedVariant.trims.find((trim) => trim.id === selectedTrimId) || selectedVariant.trims[0];
+    }, [selectedVariant, selectedTrimId]);
+
+    const colorOptions = useMemo(() => getColorOptions(selectedVehicle, selectedVariant, selectedTrim), [selectedVehicle, selectedVariant, selectedTrim]);
+
+    const selectedColor = useMemo(() => {
+        if (!colorOptions.length) {
+            return null;
+        }
+
+        return colorOptions.find((color) => color.name === selectedColorName) || colorOptions[0];
+    }, [colorOptions, selectedColorName]);
+
+    const selectedColorFrames = useMemo(
+        () => buildFrameSequence(selectedColor?.heroImage ? resolveVehicleImage(selectedColor.heroImage) : ''),
+        [selectedColor]
+    );
+
+    const galleryImages = useMemo(
+        () => {
+            if (selectedColorFrames.length > 1) {
+                return selectedColorFrames.map((image) => resolveVehicleImage(image));
+            }
+
+            return (selectedTrim?.gallery?.length ? selectedTrim.gallery : selectedVariant?.gallery || selectedVehicle?.gallery || []).map((image) => resolveVehicleImage(image));
+        },
+        [selectedColorFrames, selectedTrim, selectedVariant, selectedVehicle]
+    );
+
+    useEffect(() => {
+        const variant = getFirstVariant(selectedVehicle);
+        const trim = getFirstTrimInVariant(variant);
+        const colors = getColorOptions(selectedVehicle, variant, trim);
+        const color = getFirstColor(colors);
+
+        setSelectedVariantId(variant?.id || '');
+        setSelectedTrimId(trim?.id || '');
+        setSelectedColorName(color?.name || '');
+        setActiveGalleryIndex(0);
+        setIsGalleryMode(false);
+    }, [selectedVehicle]);
+
+    useEffect(() => {
+        const color = getFirstColor(colorOptions);
+        setSelectedColorName(color?.name || '');
+        setIsGalleryMode(false);
+    }, [selectedTrimId, colorOptions]);
+
+    useEffect(() => {
+        const trim = getFirstTrimInVariant(selectedVariant);
+        const colors = getColorOptions(selectedVehicle, selectedVariant, trim);
+        const color = getFirstColor(colors);
+
+        setSelectedTrimId(trim?.id || '');
+        setSelectedColorName(color?.name || '');
+        setActiveGalleryIndex(0);
+        setIsGalleryMode(false);
+    }, [selectedVariantId]);
 
     function handleSelectVehicle(id) {
         const nextIndex = vehicles.findIndex((vehicle) => vehicle.id === id);
         if (nextIndex >= 0) {
             setSelectedIndex(nextIndex);
         }
-        setSelectedTrim('standard');
     }
+
+    function handleSelectVariant(id) {
+        setSelectedVariantId(id);
+    }
+
+    function showPrevImage() {
+        if (!galleryImages.length) {
+            return;
+        }
+
+        setIsGalleryMode(true);
+        setActiveGalleryIndex((index) => (index - 1 + galleryImages.length) % galleryImages.length);
+    }
+
+    function showNextImage() {
+        if (!galleryImages.length) {
+            return;
+        }
+
+        setIsGalleryMode(true);
+        setActiveGalleryIndex((index) => (index + 1) % galleryImages.length);
+    }
+
+    function handleSelectColor(colorName) {
+        setSelectedColorName(colorName);
+        setIsGalleryMode(false);
+    }
+
+    const heroImage = resolveVehicleImage(selectedColor?.heroImage || selectedTrim?.gallery?.[0] || selectedVariant?.gallery?.[0] || selectedVehicle?.gallery?.[0] || '');
+    const mainImage = isGalleryMode ? galleryImages[activeGalleryIndex] || heroImage : heroImage;
 
     return (
         <div className="home-page">
-            <Header
-                items={vehicles}
-                selectedId={selectedVehicle.id}
-                onSelect={handleSelectVehicle}
-                language={language}
-            />
+            <Header items={vehicles} selectedId={selectedVehicle.id} onSelect={handleSelectVehicle} language={language} />
+
             <section className="hero-section">
-                <HeroInfo vehicle={selectedVehicle} language={language} />
+                <HeroInfo vehicle={selectedVehicle} variant={selectedVariant} trim={selectedTrim} language={language} />
 
                 <div className="hero-media">
-                    <VehicleViewer vehicle={selectedVehicle} language={language} onPrev={goPrev} onNext={goNext} />
-                    <TrimSelector language={language} selectedTrim={selectedTrim} onSelectTrim={setSelectedTrim} />
+                    <VehicleGallery
+                        vehicleName={localizeVehicleField(selectedVehicle, 'name', language)}
+                        mainImage={mainImage}
+                        onPrev={showPrevImage}
+                        onNext={showNextImage}
+                        onSwipeLeft={showNextImage}
+                        onSwipeRight={showPrevImage}
+                    />
+                    <ColorSelector
+                        colors={colorOptions}
+                        selectedColorName={selectedColor?.name || ''}
+                        onSelectColor={handleSelectColor}
+                    />
                 </div>
             </section>
 
-            <SpecsStrip vehicle={selectedVehicle} language={language} selectedTrim={selectedTrim} />
+            {variants.length > 1 ? (
+                <TrimSelector
+                    trims={variants}
+                    selectedTrimId={selectedVariant?.id || ''}
+                    onSelectTrim={handleSelectVariant}
+                    language={language}
+                />
+            ) : null}
+
+            <TrimSelector
+                trims={selectedVariant?.trims || selectedVehicle.trims || []}
+                selectedTrimId={selectedTrim?.id || ''}
+                onSelectTrim={setSelectedTrimId}
+                language={language}
+            />
+
+            <Specifications specs={selectedTrim?.specs || []} language={language} />
+
+            {selectedTrim?.overview?.length ? <Specifications specs={selectedTrim.overview} language={language} /> : null}
 
             <ChatButton />
         </div>
