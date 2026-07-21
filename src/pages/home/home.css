@@ -1,13 +1,25 @@
 
 .home-page {
+    --home-pad-x: clamp(48px, 8vw, 96px);
+    --home-header-inline-pad: calc(var(--home-pad-x) + 12px);
+    --home-header-top-pad: 8px;
+    --home-content-bottom-pad: 28px;
     position: relative;
     min-height: 100vh;
-    padding: 18px clamp(24px, 4vw, 56px) 28px;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 0;
     overflow: hidden;
     background: var(--white);
+}
+
+.home-content {
+    display: grid;
+    grid-template-rows: 65% 20% 15%;
+
+    gap: 18px;
+    padding: var(--home-header-top-pad) var(--home-pad-x) var(--home-content-bottom-pad);
 }
 
 .home-page::before {
@@ -21,39 +33,34 @@
 }
 
 .home-header {
-    position: relative;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    align-items: center;
-    gap: 24px;
-    padding: 10px 12px 4px;
-}
+  width: 100%;
+  height: 6rem;
 
-.home-header .logo-group {
-    align-items: center;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-.home-header .logo {
-    height: 2.75rem;
+  background: var(--white);
+  gap: 18px;
+  padding: clamp(1rem,2vw,2rem) var(--home-pad-x);
 }
 
 .home-header .vehicle-tabs {
-    justify-self: center;
-    width: min(100%, 760px);
+  justify-self: center;
+  width: min(100%, 960px);
 }
 
 .home-header .vehicle-tabs-list {
-    gap: clamp(1rem, 2vw, 2.8rem); 
-    justify-content: center;
-    padding: 0;
+  gap: clamp(1rem, 2vw, 2.8rem);
+  justify-content: center;
+  padding: 0;
 }
 
 .home-header .vehicle-tabs-button {
-    font-size: clamp(0.95rem, 1.05vw, 1.15rem);
-    font-weight: 500;
-    color: var(--black);
-    letter-spacing: 0.01em;
+  font-size: clamp(0.95rem, 1.05vw, 1.15rem);
+  font-weight: 500;
+  color: var(--black);
+  letter-spacing: 0.01em;
 }
 
 .hero-section {
@@ -61,10 +68,16 @@
     z-index: 1;
     flex: 0 0 auto;
     display: grid;
-    grid-template-columns: minmax(320px, 0.85fr) minmax(540px, 1.15fr);
+    grid-template-columns: 35% 65%;
     align-items: center;
-    gap: clamp(2rem, 5vw, 5rem);
-    padding: clamp(0.3rem, 1vw, 0.8rem) clamp(12px, 1vw, 16px) 0;
+    gap: clamp(1rem, 2vw, 2rem);
+}
+
+.hero-info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 0;
 }
 
 .hero-info {
@@ -73,7 +86,6 @@
     flex-direction: column;
     gap: 0.9rem;
     align-items: flex-start;
-    padding-left: clamp(8px, 1vw, 16px);
 }
 
 .hero-category {
@@ -86,7 +98,6 @@
 
 .hero-title {
     margin: 0;
-    max-width: 11ch;
     color: var(--black);
     font-size: clamp(3rem, 4.3vw, 5.1rem);
     font-weight: 800;
@@ -154,6 +165,14 @@
     min-width: 0;
 }
 
+.color-section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: -0.2rem;
+}
+
 .vehicle-viewer {
     width: 100%;
     display: flex;
@@ -163,12 +182,14 @@
 }
 
 .vehicle-frame {
-    width: min(100%, 900px);
+    width: min(100%, 1200px);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
 }
 
 .vehicle-image {
@@ -178,12 +199,14 @@
     filter: drop-shadow(0 22px 18px rgba(0, 0, 0, 0.16));
     user-select: none;
     -webkit-user-drag: none;
+    -webkit-user-select: none;
+    pointer-events: none;
     transition: opacity 0.18s ease, transform 0.18s ease;
     will-change: opacity, transform;
 }
 
 .vehicle-image.is-loading {
-    opacity: 0.35;
+    opacity: 1;
     transform: scale(0.992);
 }
 
@@ -192,18 +215,26 @@
     transform: scale(1);
 }
 
-.image-arrow {
+
+.rotate-controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.rotate-arrow {
     width: 34px;
     height: 34px;
-    border: 1px solid rgba(33, 33, 33, 0.3);
+    border: 1px none rgba(33, 33, 33, 0.24);
+    border-radius: 999px;
     background: transparent;
     color: rgba(33, 33, 33, 0.85);
-    font-size: 1.05rem;
+    font-size: 1rem;
     line-height: 1;
     cursor: pointer;
 }
 
-.image-arrow:hover {
+.rotate-arrow:hover {
     border-color: rgba(33, 33, 33, 0.7);
     color: var(--black);
 }
@@ -213,6 +244,7 @@
     color: rgba(33, 33, 33, 0.7);
     font-size: 0.92rem;
     font-weight: 500;
+    align-self: center;
 }
 
 .color-labels {
@@ -230,7 +262,7 @@
     margin: 0 0 0.15rem;
     text-align: center;
     color: rgba(33, 33, 33, 0.72);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -238,9 +270,9 @@
 
 .color-label {
     position: relative;
-    width: 80px;
-    height: 80px;
-    border: 1px solid rgba(33, 33, 33, 0.18);
+    width: 48px;
+    height: 48px;
+    border: 1px none var(--black);
     background: transparent;
     font-size: 0.92rem;
     font-weight: 700;
@@ -257,14 +289,13 @@
     transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
 
-.color-label-button.is-active {
-    color: var(--black);
-    border-color: rgba(33, 33, 33, 0.34);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
-}
-
-.color-label-button:hover {
-    transform: translateY(-1px);
+.color-label-button.is-active::before {
+    content: '';
+    position: absolute;
+    inset: -8px;
+    border: 3px solid rgba(33, 33, 33, 0.95);
+    border-radius: 999px;
+    pointer-events: none;
 }
 
 .color-swatch {
@@ -277,12 +308,15 @@
 
 .color-check {
     position: absolute;
-    inset: 0;
-    display: grid;
-    place-items: center;
-    font-size: 2rem;
-    font-weight: 500;
-    color: rgba(33, 33, 33, 0.85);
+    left: 50%;
+    top: 47%;
+    width: 15px;
+    height: 9px;
+    border-left: 2px solid rgba(255, 255, 255, 0.98);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.98);
+    transform: translate(-50%, -58%) rotate(-45deg);
+    transform-origin: center;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.25));
     pointer-events: none;
 }
 
@@ -291,9 +325,8 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    margin-top: -0.05rem;
-    padding-top: 0.35rem;
-    border-top: 1px solid rgba(33, 33, 33, 0.12);
+    background-color: var(--black);
+    padding: 0.6rem 1.2rem;
 }
 
 .trim-button {
@@ -301,41 +334,48 @@
     border: 0;
     background: transparent;
     padding: 0.4rem 0;
-    color: rgba(33, 33, 33, 0.78);
+    color: var(--gray-300);
     font-size: 0.95rem;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
-  }
+}
 
 .trim-button.is-active {
-    color: var(--black);
-  }
+    color: var(--white);
+    font-weight: 800;
+}
 
 .trim-button.is-active::after {
-    content: '';
+    content: "";
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px;
-    height: 2px;
-    background: var(--black);
-  }
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+
+    width: 130%;
+    height: 4px;
+
+    background: var(--primary);
+    border-radius: 999px;
+}
 
 .specs-strip {
     position: relative;
     z-index: 1;
     display: grid;
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--spec-count), minmax(0, 1fr));
     gap: 0;
     margin-top: -0.05rem;
     padding: 0.65rem 0 0;
     border-top: 1px solid rgba(33, 33, 33, 0.12);
     padding-bottom: 4rem;
+    overflow: hidden;
   }
 
 .spec-item {
     min-height:104px;
-    padding: 0 1rem;
+    min-width: 0;
+    padding: 0 0.85rem;
     border-left: 1px solid rgba(33, 33, 33, 0.12);
     display: flex;
     flex-direction: column;
@@ -351,22 +391,27 @@
 .spec-label {
     margin: 0;
     color: var(--black);
-    font-size: 1rem;
+        font-size: 0.92rem;
     font-weight: 700;
     line-height: 1.1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
   }
 
 .spec-value {
     margin: 0;
     color: rgba(33, 33, 33, 0.88);
-    font-size: 0.98rem;
-    line-height: 1.35;
-    white-space: pre-line;
+        font-size: 0.92rem;
+        line-height: 1.3;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
   }
 
 .chat-button {
     position: fixed;
-    right: clamp(20px, 4vw, 48px);
+    right: clamp(48px, 8vw, 96px);
     bottom: clamp(32px, 8vh, 96px);
     z-index: 2;
     padding: 0.95rem 1.25rem;
@@ -392,7 +437,6 @@
         justify-content: flex-start;
         padding-bottom: 0.2rem;
     }
-
     .hero-section {
         grid-template-columns: 1fr;
         gap: 1.8rem;
@@ -408,22 +452,25 @@
     }
 
     .specs-strip {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        row-gap: 1rem;
+        gap: 0;
     }
 
-    .spec-item:nth-child(4),
-    .spec-item:nth-child(5),
-    .spec-item:nth-child(6),
-    .spec-item:nth-child(7) {
-        border-top: 1px solid rgba(33, 33, 33, 0.12);
-        padding-top: 1rem;
+    .spec-item {
+        padding: 0 0.55rem;
+    }
+
+    .spec-label,
+    .spec-value {
+        font-size: 0.82rem;
     }
 }
 
 @media (max-width: 720px) {
     .home-page {
-        padding: 16px 16px 24px;
+        --home-pad-x: 16px;
+        --home-header-inline-pad: 28px;
+        --home-header-top-pad: 26px;
+        --home-content-bottom-pad: 24px;
     }
 
     .home-header {
@@ -458,7 +505,7 @@
         gap: 0.5rem;
     }
 
-    .image-arrow {
+    .rotate-arrow {
         width: 30px;
         height: 30px;
     }
@@ -468,12 +515,14 @@
         height: 72px;
     }
 
-    .specs-strip {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
     .spec-item {
         min-height: auto;
+        padding: 0 0.35rem;
+    }
+
+    .spec-label,
+    .spec-value {
+        font-size: 0.74rem;
     }
 
     .chat-button {

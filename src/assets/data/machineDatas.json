@@ -13,15 +13,60 @@
       "/src/assets/images/vehicles/LC300/lc300-3.JPG"
     ],
     "colors": [
-      { "name": "040 SUPER WHITE 2", "nameMn": "040 SUPER WHITE 2", "hex": "#f8f8f6", "heroImage": "/src/assets/images/vehicles/LC300/GR/superwhite1.webp" },
-      { "name": "070 WHITE PEARL CS.", "nameMn": "070 WHITE PEARL CS.", "hex": "#f5f5f1", "heroImage": "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp" },
-      { "name": "090 PRECIOUS WHITE PEARL", "nameMn": "090 PRECIOUS WHITE PEARL", "hex": "#f3f1ea", "heroImage": "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl1.webp" },
-      { "name": "1F7 SILVER ME.", "nameMn": "1F7 SILVER ME.", "hex": "#bcc0c4", "heroImage": "/src/assets/images/vehicles/LC300/GR/gray1.webp" },
-      { "name": "1G3 GRAY ME.", "nameMn": "1G3 GRAY ME.", "hex": "#9fa3a7", "heroImage": "/src/assets/images/vehicles/LC300/GR/gray1.webp" },
-      { "name": "202 BLACK", "nameMn": "202 BLACK", "hex": "#111111", "heroImage": "/src/assets/images/vehicles/LC300/GR/black1.webp" },
-      { "name": "218 ATTITUDE BLACK MC.", "nameMn": "218 ATTITUDE BLACK MC.", "hex": "#17171a", "heroImage": "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp" },
-      { "name": "3Q3 DK. RED M.M.", "nameMn": "3Q3 DK. RED M.M.", "hex": "#6f1b23", "heroImage": "/src/assets/images/vehicles/LC300/GR/dkred1.webp" },
-      { "name": "4V8 AVANT-GARDE BRONZE ME.", "nameMn": "4V8 AVANT-GARDE BRONZE ME.", "hex": "#8b7663", "heroImage": "/src/assets/images/vehicles/LC300/ZX/avantgardebronze1.webp" }
+      {
+        "name": "040 SUPER WHITE 2",
+        "nameMn": "040 SUPER WHITE 2",
+        "hex": "#f8f8f6",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/superwhite1.webp"
+      },
+      {
+        "name": "070 WHITE PEARL CS.",
+        "nameMn": "070 WHITE PEARL CS.",
+        "hex": "#f5f5f1",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp"
+      },
+      {
+        "name": "090 PRECIOUS WHITE PEARL",
+        "nameMn": "090 PRECIOUS WHITE PEARL",
+        "hex": "#f3f1ea",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl1.webp"
+      },
+      {
+        "name": "1F7 SILVER ME.",
+        "nameMn": "1F7 SILVER ME.",
+        "hex": "#bcc0c4",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/gray1.webp"
+      },
+      {
+        "name": "1G3 GRAY ME.",
+        "nameMn": "1G3 GRAY ME.",
+        "hex": "#9fa3a7",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/gray1.webp"
+      },
+      {
+        "name": "202 BLACK",
+        "nameMn": "202 BLACK",
+        "hex": "#111111",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/black1.webp"
+      },
+      {
+        "name": "218 ATTITUDE BLACK MC.",
+        "nameMn": "218 ATTITUDE BLACK MC.",
+        "hex": "#17171a",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp"
+      },
+      {
+        "name": "3Q3 DK. RED M.M.",
+        "nameMn": "3Q3 DK. RED M.M.",
+        "hex": "#6f1b23",
+        "heroImage": "/src/assets/images/vehicles/LC300/GR/dkred1.webp"
+      },
+      {
+        "name": "4V8 AVANT-GARDE BRONZE ME.",
+        "nameMn": "4V8 AVANT-GARDE BRONZE ME.",
+        "hex": "#8b7663",
+        "heroImage": "/src/assets/images/vehicles/LC300/ZX/avantgardebronze1.webp"
+      }
     ],
     "variants": [
       {
@@ -40,25 +85,94 @@
               "/src/assets/images/vehicles/LC300/GR/gray1.webp"
             ],
             "colors": [
-              { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp" },
-              { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/LC300/GR/black1.webp" }
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/LC300/GR/black1.webp"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.5L Twin Turbo gasoline", "valueMn": "3.5L Twin Turbo бензин" },
-              { "label": "Power", "labelMn": "Хүч", "value": "409 hp", "valueMn": "409 hp" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "210 km/h", "valueMn": "210 km/h" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 6.7 s", "valueMn": "0-100 km/h in 6.7 s" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.5L Twin Turbo gasoline",
+                "valueMn": "3.5L Twin Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "409 hp",
+                "valueMn": "409 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "210 km/h",
+                "valueMn": "210 km/h"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Full-size SUV platform", "valueMn": "Full-size SUV platform" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Sport seats and premium trim", "valueMn": "Sport seats and premium trim" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "GR alloy wheels", "valueMn": "GR alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "GR exterior package", "valueMn": "GR exterior package" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Full-size SUV platform",
+                "valueMn": "Full-size SUV platform"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Sport seats and premium trim",
+                "valueMn": "Sport seats and premium trim"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "GR alloy wheels",
+                "valueMn": "GR alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "GR exterior package",
+                "valueMn": "GR exterior package"
+              }
             ]
           },
           {
@@ -73,25 +187,94 @@
               "/src/assets/images/vehicles/LC300/GR/dkred1.webp"
             ],
             "colors": [
-              { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl1.webp" },
-              { "name": "Red", "nameMn": "Улаан", "hex": "#7b1e24", "heroImage": "/src/assets/images/vehicles/LC300/GR/dkred1.webp" }
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl1.webp"
+              },
+              {
+                "name": "Red",
+                "nameMn": "Улаан",
+                "hex": "#7b1e24",
+                "heroImage": "/src/assets/images/vehicles/LC300/GR/dkred1.webp"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.3L Diesel", "valueMn": "3.3L дизель" },
-              { "label": "Power", "labelMn": "Хүч", "value": "304 hp", "valueMn": "304 hp" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "210 km/h", "valueMn": "210 km/h" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 7.8 s", "valueMn": "0-100 km/h in 7.8 s" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.3L Diesel",
+                "valueMn": "3.3L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "304 hp",
+                "valueMn": "304 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "210 km/h",
+                "valueMn": "210 km/h"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Full-size SUV platform", "valueMn": "Full-size SUV platform" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Long-distance cruising setup", "valueMn": "Long-distance cruising setup" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "GR alloy wheels", "valueMn": "GR alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Off-road kit", "valueMn": "Off-road kit" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Full-size SUV platform",
+                "valueMn": "Full-size SUV platform"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Long-distance cruising setup",
+                "valueMn": "Long-distance cruising setup"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "GR alloy wheels",
+                "valueMn": "GR alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Off-road kit",
+                "valueMn": "Off-road kit"
+              }
             ]
           },
           {
@@ -106,25 +289,94 @@
               "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp"
             ],
             "colors": [
-              { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp" },
-              { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp" }
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "Hybrid powertrain", "valueMn": "Hybrid powertrain" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "Automatic", "valueMn": "Automatic" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "Hybrid powertrain",
+                "valueMn": "Hybrid powertrain"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "Automatic",
+                "valueMn": "Automatic"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Full-size SUV platform", "valueMn": "Full-size SUV platform" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Quiet hybrid cruising", "valueMn": "Quiet hybrid cruising" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "GR alloy wheels", "valueMn": "GR alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Hybrid badging", "valueMn": "Hybrid badging" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Full-size SUV platform",
+                "valueMn": "Full-size SUV platform"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Quiet hybrid cruising",
+                "valueMn": "Quiet hybrid cruising"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "GR alloy wheels",
+                "valueMn": "GR alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Hybrid badging",
+                "valueMn": "Hybrid badging"
+              }
             ]
           }
         ]
@@ -133,25 +385,711 @@
         "id": "zx",
         "name": "ZX",
         "trims": [
-          { "id": "petrol", "name": "Petrol", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/ZX/whitepearl1.webp", "/src/assets/images/vehicles/LC300/ZX/black1.webp"], "colors": [ { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/ZX/whitepearl1.webp" }, { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/LC300/ZX/black1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.5L Twin Turbo gasoline", "valueMn": "3.5L Twin Turbo бензин" }, { "label": "Power", "labelMn": "Хүч", "value": "409 hp", "valueMn": "409 hp" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "210 km/h", "valueMn": "210 km/h" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 6.8 s", "valueMn": "0-100 km/h in 6.8 s" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Premium SUV proportions", "valueMn": "Premium SUV proportions" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Luxury cabin", "valueMn": "Luxury cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "ZX alloy wheels", "valueMn": "ZX alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Panoramic monitor", "valueMn": "Panoramic monitor" } ] },
-          { "id": "hev", "name": "HEV", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl1.webp", "/src/assets/images/vehicles/LC300/ZX/superwhite1.webp"], "colors": [ { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl1.webp" }, { "name": "White", "nameMn": "Цагаан", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/ZX/superwhite1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "Hybrid powertrain", "valueMn": "Hybrid powertrain" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "Automatic", "valueMn": "Automatic" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Premium SUV proportions", "valueMn": "Premium SUV proportions" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Quiet hybrid cruising", "valueMn": "Quiet hybrid cruising" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "ZX alloy wheels", "valueMn": "ZX alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Hybrid badging", "valueMn": "Hybrid badging" } ] }
+          {
+            "id": "petrol",
+            "name": "Petrol",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/ZX/whitepearl1.webp",
+              "/src/assets/images/vehicles/LC300/ZX/black1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/ZX/whitepearl1.webp"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/LC300/ZX/black1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.5L Twin Turbo gasoline",
+                "valueMn": "3.5L Twin Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "409 hp",
+                "valueMn": "409 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "210 km/h",
+                "valueMn": "210 km/h"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Premium SUV proportions",
+                "valueMn": "Premium SUV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Luxury cabin",
+                "valueMn": "Luxury cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "ZX alloy wheels",
+                "valueMn": "ZX alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Panoramic monitor",
+                "valueMn": "Panoramic monitor"
+              }
+            ]
+          },
+          {
+            "id": "hev",
+            "name": "HEV",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl1.webp",
+              "/src/assets/images/vehicles/LC300/ZX/superwhite1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl1.webp"
+              },
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/ZX/superwhite1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "Hybrid powertrain",
+                "valueMn": "Hybrid powertrain"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "Automatic",
+                "valueMn": "Automatic"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Premium SUV proportions",
+                "valueMn": "Premium SUV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Quiet hybrid cruising",
+                "valueMn": "Quiet hybrid cruising"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "ZX alloy wheels",
+                "valueMn": "ZX alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Hybrid badging",
+                "valueMn": "Hybrid badging"
+              }
+            ]
+          }
         ]
       },
       {
         "id": "vx",
         "name": "VX",
         "trims": [
-          { "id": "petrol", "name": "Petrol", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/VX/whitepearl1.webp", "/src/assets/images/vehicles/LC300/VX/black1.webp"], "colors": [ { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp" }, { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/LC300/VX/black1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.5L Twin Turbo gasoline", "valueMn": "3.5L Twin Turbo бензин" }, { "label": "Power", "labelMn": "Хүч", "value": "409 hp", "valueMn": "409 hp" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "210 km/h", "valueMn": "210 km/h" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 6.8 s", "valueMn": "0-100 km/h in 6.8 s" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Luxury SUV proportions", "valueMn": "Luxury SUV proportions" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Leather upholstery", "valueMn": "Leather upholstery" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "VX alloy wheels", "valueMn": "VX alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Panoramic roof", "valueMn": "Panoramic roof" } ] },
-          { "id": "hev", "name": "HEV", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/VX/preciouswhitepearl1.webp", "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp"], "colors": [ { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/VX/preciouswhitepearl1.webp" }, { "name": "White", "nameMn": "Цагаан", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "Hybrid powertrain", "valueMn": "Hybrid powertrain" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "Automatic", "valueMn": "Automatic" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Luxury SUV proportions", "valueMn": "Luxury SUV proportions" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Quiet hybrid cruising", "valueMn": "Quiet hybrid cruising" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "VX alloy wheels", "valueMn": "VX alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Hybrid badging", "valueMn": "Hybrid badging" } ] }
+          {
+            "id": "petrol",
+            "name": "Petrol",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp",
+              "/src/assets/images/vehicles/LC300/VX/black1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/LC300/VX/black1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.5L Twin Turbo gasoline",
+                "valueMn": "3.5L Twin Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "409 hp",
+                "valueMn": "409 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "210 km/h",
+                "valueMn": "210 km/h"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Luxury SUV proportions",
+                "valueMn": "Luxury SUV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Leather upholstery",
+                "valueMn": "Leather upholstery"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "VX alloy wheels",
+                "valueMn": "VX alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Panoramic roof",
+                "valueMn": "Panoramic roof"
+              }
+            ]
+          },
+          {
+            "id": "hev",
+            "name": "HEV",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/VX/preciouswhitepearl1.webp",
+              "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/VX/preciouswhitepearl1.webp"
+              },
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "Hybrid powertrain",
+                "valueMn": "Hybrid powertrain"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "Automatic",
+                "valueMn": "Automatic"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Luxury SUV proportions",
+                "valueMn": "Luxury SUV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Quiet hybrid cruising",
+                "valueMn": "Quiet hybrid cruising"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "VX alloy wheels",
+                "valueMn": "VX alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Hybrid badging",
+                "valueMn": "Hybrid badging"
+              }
+            ]
+          }
         ]
       },
       {
         "id": "gxr",
         "name": "GX-R",
         "trims": [
-          { "id": "diesel", "name": "Diesel", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/GX/whitepearl1.webp", "/src/assets/images/vehicles/LC300/GX/black1.webp"], "colors": [ { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/GX/whitepearl1.webp" }, { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/LC300/GX/black1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.3L Diesel", "valueMn": "3.3L дизель" }, { "label": "Power", "labelMn": "Хүч", "value": "304 hp", "valueMn": "304 hp" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "200 km/h", "valueMn": "200 km/h" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 7.9 s", "valueMn": "0-100 km/h in 7.9 s" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Robust body-on-frame SUV", "valueMn": "Robust body-on-frame SUV" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Practical leather cabin", "valueMn": "Practical leather cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "GX-R alloy wheels", "valueMn": "GX-R alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Winch-ready package", "valueMn": "Winch-ready package" } ] },
-          { "id": "petrol-leather", "name": "Petrol (Leather)", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/GX/preciouswhitepearl1.webp", "/src/assets/images/vehicles/LC300/GX/superwhite1.webp"], "colors": [ { "name": "White Pearl", "nameMn": "White Pearl", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/GX/preciouswhitepearl1.webp" }, { "name": "White", "nameMn": "Цагаан", "hex": "#f5f5f3", "heroImage": "/src/assets/images/vehicles/LC300/GX/superwhite1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.5L Twin Turbo gasoline", "valueMn": "3.5L Twin Turbo бензин" }, { "label": "Power", "labelMn": "Хүч", "value": "409 hp", "valueMn": "409 hp" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "210 km/h", "valueMn": "210 km/h" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 6.8 s", "valueMn": "0-100 km/h in 6.8 s" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Leather-focused SUV trim", "valueMn": "Leather-focused SUV trim" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Leather cabin", "valueMn": "Leather cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "GX-R alloy wheels", "valueMn": "GX-R alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Premium convenience pack", "valueMn": "Premium convenience pack" } ] },
-          { "id": "petrol-winch", "name": "Petrol (Winch)", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC300/GX/dkred1.webp", "/src/assets/images/vehicles/LC300/GX/gray1.webp"], "colors": [ { "name": "Dark Red", "nameMn": "Бараан улаан", "hex": "#7b1e24", "heroImage": "/src/assets/images/vehicles/LC300/GX/dkred1.webp" }, { "name": "Gray", "nameMn": "Саарал", "hex": "#8a8f94", "heroImage": "/src/assets/images/vehicles/LC300/GX/gray1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "3.5L Twin Turbo gasoline", "valueMn": "3.5L Twin Turbo бензин" }, { "label": "Power", "labelMn": "Хүч", "value": "409 hp", "valueMn": "409 hp" }, { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "10AT automatic", "valueMn": "10AT автомат" }, { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "80+30 L", "valueMn": "80+30 L" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "210 km/h", "valueMn": "210 km/h" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 6.8 s", "valueMn": "0-100 km/h in 6.8 s" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Winch-ready body-on-frame SUV", "valueMn": "Winch-ready body-on-frame SUV" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Practical leather cabin", "valueMn": "Practical leather cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "GX-R alloy wheels", "valueMn": "GX-R alloy wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Factory winch package", "valueMn": "Factory winch package" } ] }
+          {
+            "id": "diesel",
+            "name": "Diesel",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/GX/whitepearl1.webp",
+              "/src/assets/images/vehicles/LC300/GX/black1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/GX/whitepearl1.webp"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/LC300/GX/black1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.3L Diesel",
+                "valueMn": "3.3L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "304 hp",
+                "valueMn": "304 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "200 km/h",
+                "valueMn": "200 km/h"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Robust body-on-frame SUV",
+                "valueMn": "Robust body-on-frame SUV"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Practical leather cabin",
+                "valueMn": "Practical leather cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "GX-R alloy wheels",
+                "valueMn": "GX-R alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Winch-ready package",
+                "valueMn": "Winch-ready package"
+              }
+            ]
+          },
+          {
+            "id": "petrol-leather",
+            "name": "Petrol (Leather)",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/GX/preciouswhitepearl1.webp",
+              "/src/assets/images/vehicles/LC300/GX/superwhite1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White Pearl",
+                "nameMn": "White Pearl",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/GX/preciouswhitepearl1.webp"
+              },
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f5f5f3",
+                "heroImage": "/src/assets/images/vehicles/LC300/GX/superwhite1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.5L Twin Turbo gasoline",
+                "valueMn": "3.5L Twin Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "409 hp",
+                "valueMn": "409 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "210 km/h",
+                "valueMn": "210 km/h"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Leather-focused SUV trim",
+                "valueMn": "Leather-focused SUV trim"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Leather cabin",
+                "valueMn": "Leather cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "GX-R alloy wheels",
+                "valueMn": "GX-R alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Premium convenience pack",
+                "valueMn": "Premium convenience pack"
+              }
+            ]
+          },
+          {
+            "id": "petrol-winch",
+            "name": "Petrol (Winch)",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC300/GX/dkred1.webp",
+              "/src/assets/images/vehicles/LC300/GX/gray1.webp"
+            ],
+            "colors": [
+              {
+                "name": "Dark Red",
+                "nameMn": "Бараан улаан",
+                "hex": "#7b1e24",
+                "heroImage": "/src/assets/images/vehicles/LC300/GX/dkred1.webp"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#8a8f94",
+                "heroImage": "/src/assets/images/vehicles/LC300/GX/gray1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "3.5L Twin Turbo gasoline",
+                "valueMn": "3.5L Twin Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "409 hp",
+                "valueMn": "409 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "10AT automatic",
+                "valueMn": "10AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "80+30 L",
+                "valueMn": "80+30 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "210 km/h",
+                "valueMn": "210 km/h"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Winch-ready body-on-frame SUV",
+                "valueMn": "Winch-ready body-on-frame SUV"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Practical leather cabin",
+                "valueMn": "Practical leather cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "GX-R alloy wheels",
+                "valueMn": "GX-R alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Factory winch package",
+                "valueMn": "Factory winch package"
+              }
+            ]
+          }
         ]
       }
     ],
@@ -171,10 +1109,30 @@
       "/src/assets/images/vehicles/LC250/lc250-3.JPG"
     ],
     "colors": [
-      { "name": "229 NEUTRAL BLACK", "nameMn": "229 NEUTRAL BLACK", "hex": "#2a2a2c", "heroImage": "/src/assets/images/vehicles/LC250/neutralblack1.webp" },
-      { "name": "089 PLATINUM WHITE PEARL MC.", "nameMn": "089 PLATINUM WHITE PEARL MC.", "hex": "#f6f4ee", "heroImage": "/src/assets/images/vehicles/LC250/platinumwhitepearl1.webp" },
-      { "name": "218 ATTITUDE BLACK MC.", "nameMn": "218 ATTITUDE BLACK MC.", "hex": "#17171a", "heroImage": "/src/assets/images/vehicles/LC250/attitudeblack1.webp" },
-      { "name": "4V8 AVANT-GARDE BRONZE ME.", "nameMn": "4V8 AVANT-GARDE BRONZE ME.", "hex": "#8b7663", "heroImage": "/src/assets/images/vehicles/LC250/avantgardebronze1.webp" }
+      {
+        "name": "229 NEUTRAL BLACK",
+        "nameMn": "229 NEUTRAL BLACK",
+        "hex": "#2a2a2c",
+        "heroImage": "/src/assets/images/vehicles/LC250/neutralblack1.webp"
+      },
+      {
+        "name": "089 PLATINUM WHITE PEARL MC.",
+        "nameMn": "089 PLATINUM WHITE PEARL MC.",
+        "hex": "#f6f4ee",
+        "heroImage": "/src/assets/images/vehicles/LC250/platinumwhitepearl1.webp"
+      },
+      {
+        "name": "218 ATTITUDE BLACK MC.",
+        "nameMn": "218 ATTITUDE BLACK MC.",
+        "hex": "#17171a",
+        "heroImage": "/src/assets/images/vehicles/LC250/attitudeblack1.webp"
+      },
+      {
+        "name": "4V8 AVANT-GARDE BRONZE ME.",
+        "nameMn": "4V8 AVANT-GARDE BRONZE ME.",
+        "hex": "#8b7663",
+        "heroImage": "/src/assets/images/vehicles/LC250/avantgardebronze1.webp"
+      }
     ],
     "variants": [
       {
@@ -185,27 +1143,99 @@
             "id": "petrol",
             "name": "Petrol",
             "price": "Starting from ₮235,000,000",
-            "gallery": ["/src/assets/images/vehicles/LC250/lc250-4.JPG", "/src/assets/images/vehicles/LC250/lc250-5.JPG"],
+            "gallery": [
+              "/src/assets/images/vehicles/LC250/lc250-4.JPG",
+              "/src/assets/images/vehicles/LC250/lc250-5.JPG"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f1f1f1", "heroImage": "/src/assets/images/vehicles/LC250/lc250-4.JPG" },
-              { "name": "Black", "nameMn": "Хар", "hex": "#181818", "heroImage": "/src/assets/images/vehicles/LC250/lc250-3.JPG" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f1f1f1",
+                "heroImage": "/src/assets/images/vehicles/LC250/lc250-4.JPG"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#181818",
+                "heroImage": "/src/assets/images/vehicles/LC250/lc250-3.JPG"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.4L Turbo gasoline", "valueMn": "2.4L Turbo бензин" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "8AT automatic", "valueMn": "8AT автомат" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.4L Turbo gasoline",
+                "valueMn": "2.4L Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "8AT automatic",
+                "valueMn": "8AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Off-road SUV platform", "valueMn": "Off-road SUV platform" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Leather cabin", "valueMn": "Leather cabin" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "20 inch alloy wheels", "valueMn": "20 inch alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Panoramic monitor", "valueMn": "Panoramic monitor" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Off-road SUV platform",
+                "valueMn": "Off-road SUV platform"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Leather cabin",
+                "valueMn": "Leather cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "20 inch alloy wheels",
+                "valueMn": "20 inch alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Panoramic monitor",
+                "valueMn": "Panoramic monitor"
+              }
             ]
           }
         ]
@@ -218,27 +1248,99 @@
             "id": "petrol",
             "name": "Petrol",
             "price": "Starting from ₮199,900,000",
-            "gallery": ["/src/assets/images/vehicles/LC250/lc250-1.JPG", "/src/assets/images/vehicles/LC250/lc250-2.JPG"],
+            "gallery": [
+              "/src/assets/images/vehicles/LC250/lc250-1.JPG",
+              "/src/assets/images/vehicles/LC250/lc250-2.JPG"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f1f1f1", "heroImage": "/src/assets/images/vehicles/LC250/lc250-1.JPG" },
-              { "name": "Silver", "nameMn": "Мөнгөлөг", "hex": "#bfc2c7", "heroImage": "/src/assets/images/vehicles/LC250/lc250-2.JPG" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f1f1f1",
+                "heroImage": "/src/assets/images/vehicles/LC250/lc250-1.JPG"
+              },
+              {
+                "name": "Silver",
+                "nameMn": "Мөнгөлөг",
+                "hex": "#bfc2c7",
+                "heroImage": "/src/assets/images/vehicles/LC250/lc250-2.JPG"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.4L Turbo gasoline", "valueMn": "2.4L Turbo бензин" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Full-time 4WD", "valueMn": "Full-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "8AT automatic", "valueMn": "8AT автомат" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.4L Turbo gasoline",
+                "valueMn": "2.4L Turbo бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Full-time 4WD",
+                "valueMn": "Full-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "8AT automatic",
+                "valueMn": "8AT автомат"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Off-road SUV platform", "valueMn": "Off-road SUV platform" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Cloth or leather depending on trim", "valueMn": "Cloth or leather depending on trim" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "18 inch alloy wheels", "valueMn": "18 inch alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Rear differential lock", "valueMn": "Rear differential lock" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Off-road SUV platform",
+                "valueMn": "Off-road SUV platform"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Cloth or leather depending on trim",
+                "valueMn": "Cloth or leather depending on trim"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "18 inch alloy wheels",
+                "valueMn": "18 inch alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Rear differential lock",
+                "valueMn": "Rear differential lock"
+              }
             ]
           }
         ]
@@ -260,14 +1362,54 @@
       "/src/assets/images/vehicles/RAV4/rav4-3.JPG"
     ],
     "colors": [
-      { "name": "089 PLATINUM WHITE PEARL MC.", "nameMn": "089 PLATINUM WHITE PEARL MC.", "hex": "#f6f4ee", "heroImage": "/src/assets/images/vehicles/RAV4/platinumwhitepearl1.webp" },
-      { "name": "218 ATTITUDE BLACK MC.", "nameMn": "218 ATTITUDE BLACK MC.", "hex": "#17171a", "heroImage": "/src/assets/images/vehicles/RAV4/attitudeblack1.webp" },
-      { "name": "3T3 RED MC.", "nameMn": "3T3 RED MC.", "hex": "#b21f2d", "heroImage": "/src/assets/images/vehicles/RAV4/red1.webp" },
-      { "name": "8X8 DK. BLUE MC.", "nameMn": "8X8 DK. BLUE MC.", "hex": "#1f3d63", "heroImage": "/src/assets/images/vehicles/RAV4/dkblue1.webp" },
-      { "name": "1L6 MASSIVE GRAY", "nameMn": "1L6 MASSIVE GRAY", "hex": "#8b8f95", "heroImage": "/src/assets/images/vehicles/RAV4/massivegray1.webp" },
-      { "name": "1M6 URBAN ROCK", "nameMn": "1M6 URBAN ROCK", "hex": "#7d7267", "heroImage": "/src/assets/images/vehicles/RAV4/urbanrock1.webp" },
-      { "name": "4V8 AVANT-GARDE BRONZE ME.", "nameMn": "4V8 AVANT-GARDE BRONZE ME.", "hex": "#8b7663", "heroImage": "/src/assets/images/vehicles/RAV4/avantgardebronze1.webp" },
-      { "name": "6X7 EVER REST", "nameMn": "6X7 EVER REST", "hex": "#6f7f69", "heroImage": "/src/assets/images/vehicles/RAV4/everrest1.webp" }
+      {
+        "name": "089 PLATINUM WHITE PEARL MC.",
+        "nameMn": "089 PLATINUM WHITE PEARL MC.",
+        "hex": "#f6f4ee",
+        "heroImage": "/src/assets/images/vehicles/RAV4/platinumwhitepearl1.webp"
+      },
+      {
+        "name": "218 ATTITUDE BLACK MC.",
+        "nameMn": "218 ATTITUDE BLACK MC.",
+        "hex": "#17171a",
+        "heroImage": "/src/assets/images/vehicles/RAV4/attitudeblack1.webp"
+      },
+      {
+        "name": "3T3 RED MC.",
+        "nameMn": "3T3 RED MC.",
+        "hex": "#b21f2d",
+        "heroImage": "/src/assets/images/vehicles/RAV4/red1.webp"
+      },
+      {
+        "name": "8X8 DK. BLUE MC.",
+        "nameMn": "8X8 DK. BLUE MC.",
+        "hex": "#1f3d63",
+        "heroImage": "/src/assets/images/vehicles/RAV4/dkblue1.webp"
+      },
+      {
+        "name": "1L6 MASSIVE GRAY",
+        "nameMn": "1L6 MASSIVE GRAY",
+        "hex": "#8b8f95",
+        "heroImage": "/src/assets/images/vehicles/RAV4/massivegray1.webp"
+      },
+      {
+        "name": "1M6 URBAN ROCK",
+        "nameMn": "1M6 URBAN ROCK",
+        "hex": "#7d7267",
+        "heroImage": "/src/assets/images/vehicles/RAV4/urbanrock1.webp"
+      },
+      {
+        "name": "4V8 AVANT-GARDE BRONZE ME.",
+        "nameMn": "4V8 AVANT-GARDE BRONZE ME.",
+        "hex": "#8b7663",
+        "heroImage": "/src/assets/images/vehicles/RAV4/avantgardebronze1.webp"
+      },
+      {
+        "name": "6X7 EVER REST",
+        "nameMn": "6X7 EVER REST",
+        "hex": "#6f7f69",
+        "heroImage": "/src/assets/images/vehicles/RAV4/everrest1.webp"
+      }
     ],
     "variants": [
       {
@@ -278,55 +1420,205 @@
             "id": "standard",
             "name": "Standard",
             "price": "Starting from ₮139,600,000",
-            "gallery": ["/src/assets/images/vehicles/RAV4/white-front.png", "/src/assets/images/vehicles/RAV4/grey-front.jpg", "/src/assets/images/vehicles/RAV4/black-front.jpg"],
+            "gallery": [
+              "/src/assets/images/vehicles/RAV4/white-front.png",
+              "/src/assets/images/vehicles/RAV4/grey-front.jpg",
+              "/src/assets/images/vehicles/RAV4/black-front.jpg"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f4f4f4", "heroImage": "/src/assets/images/vehicles/RAV4/white-front.png" },
-              { "name": "Silver", "nameMn": "Мөнгөлөг", "hex": "#b8bcc2", "heroImage": "/src/assets/images/vehicles/RAV4/grey-front.jpg" },
-              { "name": "Black", "nameMn": "Хар", "hex": "#1b1b1b", "heroImage": "/src/assets/images/vehicles/RAV4/black-front.jpg" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f4f4f4",
+                "heroImage": "/src/assets/images/vehicles/RAV4/white-front.png"
+              },
+              {
+                "name": "Silver",
+                "nameMn": "Мөнгөлөг",
+                "hex": "#b8bcc2",
+                "heroImage": "/src/assets/images/vehicles/RAV4/grey-front.jpg"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1b1b1b",
+                "heroImage": "/src/assets/images/vehicles/RAV4/black-front.jpg"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.5L Hybrid", "valueMn": "2.5L Hybrid" },
-              { "label": "Power", "labelMn": "Хүч", "value": "221 hp", "valueMn": "221 hp" },
-              { "label": "Drive", "labelMn": "Drive", "value": "E-Four AWD", "valueMn": "E-Four AWD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "e-CVT", "valueMn": "e-CVT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "55 L", "valueMn": "55 L" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "180 km/h", "valueMn": "180 km/h" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 7.3 s", "valueMn": "0-100 km/h in 7.3 s" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.5L Hybrid",
+                "valueMn": "2.5L Hybrid"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "221 hp",
+                "valueMn": "221 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "E-Four AWD",
+                "valueMn": "E-Four AWD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "e-CVT",
+                "valueMn": "e-CVT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "55 L",
+                "valueMn": "55 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "180 km/h",
+                "valueMn": "180 km/h"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Compact SUV proportions", "valueMn": "Compact SUV proportions" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Panoramic roof and premium audio", "valueMn": "Panoramic roof and premium audio" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "18 inch alloy wheels", "valueMn": "18 inch alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Digital cluster", "valueMn": "Digital cluster" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Compact SUV proportions",
+                "valueMn": "Compact SUV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Panoramic roof and premium audio",
+                "valueMn": "Panoramic roof and premium audio"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "18 inch alloy wheels",
+                "valueMn": "18 inch alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Digital cluster",
+                "valueMn": "Digital cluster"
+              }
             ]
           },
           {
             "id": "premium",
             "name": "Premium",
             "price": "Starting from ₮156,000,000",
-            "gallery": ["/src/assets/images/vehicles/RAV4/rav4_white.png", "/src/assets/images/vehicles/RAV4/rav4_red.png"],
+            "gallery": [
+              "/src/assets/images/vehicles/RAV4/rav4_white.png",
+              "/src/assets/images/vehicles/RAV4/rav4_red.png"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f4f4f4", "heroImage": "/src/assets/images/vehicles/RAV4/rav4_white.png" },
-              { "name": "Dark Red", "nameMn": "Бараан улаан", "hex": "#7a1f24", "heroImage": "/src/assets/images/vehicles/RAV4/rav4_red.png" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f4f4f4",
+                "heroImage": "/src/assets/images/vehicles/RAV4/rav4_white.png"
+              },
+              {
+                "name": "Dark Red",
+                "nameMn": "Бараан улаан",
+                "hex": "#7a1f24",
+                "heroImage": "/src/assets/images/vehicles/RAV4/rav4_red.png"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.5L Hybrid", "valueMn": "2.5L Hybrid" },
-              { "label": "Power", "labelMn": "Хүч", "value": "221 hp", "valueMn": "221 hp" },
-              { "label": "Drive", "labelMn": "Drive", "value": "E-Four AWD", "valueMn": "E-Four AWD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "e-CVT", "valueMn": "e-CVT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "55 L", "valueMn": "55 L" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "180 km/h", "valueMn": "180 km/h" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "0-100 km/h in 7.3 s", "valueMn": "0-100 km/h in 7.3 s" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.5L Hybrid",
+                "valueMn": "2.5L Hybrid"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "221 hp",
+                "valueMn": "221 hp"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "E-Four AWD",
+                "valueMn": "E-Four AWD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "e-CVT",
+                "valueMn": "e-CVT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "55 L",
+                "valueMn": "55 L"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "180 km/h",
+                "valueMn": "180 km/h"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Compact SUV proportions", "valueMn": "Compact SUV proportions" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Premium cluster and audio", "valueMn": "Premium cluster and audio" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "18 inch alloy wheels", "valueMn": "18 inch alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Panoramic roof", "valueMn": "Panoramic roof" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Compact SUV proportions",
+                "valueMn": "Compact SUV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Premium cluster and audio",
+                "valueMn": "Premium cluster and audio"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "18 inch alloy wheels",
+                "valueMn": "18 inch alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Panoramic roof",
+                "valueMn": "Panoramic roof"
+              }
             ]
           }
         ]
@@ -348,10 +1640,30 @@
       "/src/assets/images/vehicles/Alphard/alphard-3.JPG"
     ],
     "colors": [
-      { "name": "089 PLATINUM WHITE PEARL MC.", "nameMn": "089 PLATINUM WHITE PEARL MC.", "hex": "#f6f4ee", "heroImage": "/src/assets/images/vehicles/Alphard/white1.webp" },
-      { "name": "1L5 PRECIOUS METAL", "nameMn": "1L5 PRECIOUS METAL", "hex": "#8d7f72", "heroImage": "/src/assets/images/vehicles/Alphard/bronze1.webp" },
-      { "name": "202 BLACK", "nameMn": "202 BLACK", "hex": "#111111", "heroImage": "/src/assets/images/vehicles/Alphard/black1.webp" },
-      { "name": "229 NEUTRAL BLACK", "nameMn": "229 NEUTRAL BLACK", "hex": "#2a2a2c", "heroImage": "/src/assets/images/vehicles/Alphard/black1.webp" }
+      {
+        "name": "089 PLATINUM WHITE PEARL MC.",
+        "nameMn": "089 PLATINUM WHITE PEARL MC.",
+        "hex": "#f6f4ee",
+        "heroImage": "/src/assets/images/vehicles/Alphard/white1.webp"
+      },
+      {
+        "name": "1L5 PRECIOUS METAL",
+        "nameMn": "1L5 PRECIOUS METAL",
+        "hex": "#8d7f72",
+        "heroImage": "/src/assets/images/vehicles/Alphard/bronze1.webp"
+      },
+      {
+        "name": "202 BLACK",
+        "nameMn": "202 BLACK",
+        "hex": "#111111",
+        "heroImage": "/src/assets/images/vehicles/Alphard/black1.webp"
+      },
+      {
+        "name": "229 NEUTRAL BLACK",
+        "nameMn": "229 NEUTRAL BLACK",
+        "hex": "#2a2a2c",
+        "heroImage": "/src/assets/images/vehicles/Alphard/black1.webp"
+      }
     ],
     "variants": [
       {
@@ -362,27 +1674,99 @@
             "id": "premium",
             "name": "Premium",
             "price": "Starting from ₮268,700,000",
-            "gallery": ["/src/assets/images/vehicles/Alphard/alphard-1.JPG", "/src/assets/images/vehicles/Alphard/alphard-2.JPG"],
+            "gallery": [
+              "/src/assets/images/vehicles/Alphard/alphard-1.JPG",
+              "/src/assets/images/vehicles/Alphard/alphard-2.JPG"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f4f4f4", "heroImage": "/src/assets/images/vehicles/Alphard/alphard-1.JPG" },
-              { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/Alphard/alphard-2.JPG" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f4f4f4",
+                "heroImage": "/src/assets/images/vehicles/Alphard/alphard-1.JPG"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/Alphard/alphard-2.JPG"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.5L Hybrid", "valueMn": "2.5L Hybrid" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "AWD", "valueMn": "AWD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "e-CVT", "valueMn": "e-CVT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "7", "valueMn": "7" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.5L Hybrid",
+                "valueMn": "2.5L Hybrid"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "AWD",
+                "valueMn": "AWD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "e-CVT",
+                "valueMn": "e-CVT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "7",
+                "valueMn": "7"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Luxury MPV proportions", "valueMn": "Luxury MPV proportions" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Ottoman captain seats", "valueMn": "Ottoman captain seats" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "Premium alloy wheels", "valueMn": "Premium alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Premium audio", "valueMn": "Premium audio" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Luxury MPV proportions",
+                "valueMn": "Luxury MPV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Ottoman captain seats",
+                "valueMn": "Ottoman captain seats"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Premium alloy wheels",
+                "valueMn": "Premium alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Premium audio",
+                "valueMn": "Premium audio"
+              }
             ]
           }
         ]
@@ -404,11 +1788,36 @@
       "/src/assets/images/vehicles/Granvia/granvia-3.JPG"
     ],
     "colors": [
-      { "name": "1E7 SILVER M.M.", "nameMn": "1E7 SILVER M.M.", "hex": "#c1c5ca", "heroImage": "/src/assets/images/vehicles/Granvia/silver.webp" },
-      { "name": "058 WHITE", "nameMn": "058 WHITE", "hex": "#f7f7f4", "heroImage": "/src/assets/images/vehicles/Granvia/white.webp" },
-      { "name": "070 WHITE PEARL CS.", "nameMn": "070 WHITE PEARL CS.", "hex": "#f5f5f1", "heroImage": "/src/assets/images/vehicles/Granvia/whitepearl.webp" },
-      { "name": "202 BLACK", "nameMn": "202 BLACK", "hex": "#111111", "heroImage": "/src/assets/images/vehicles/Granvia/black.webp" },
-      { "name": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)", "nameMn": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)", "hex": "#d9d1c4", "heroImage": "/src/assets/images/vehicles/Granvia/gray.webp" }
+      {
+        "name": "1E7 SILVER M.M.",
+        "nameMn": "1E7 SILVER M.M.",
+        "hex": "#c1c5ca",
+        "heroImage": "/src/assets/images/vehicles/Granvia/silver.webp"
+      },
+      {
+        "name": "058 WHITE",
+        "nameMn": "058 WHITE",
+        "hex": "#f7f7f4",
+        "heroImage": "/src/assets/images/vehicles/Granvia/white.webp"
+      },
+      {
+        "name": "070 WHITE PEARL CS.",
+        "nameMn": "070 WHITE PEARL CS.",
+        "hex": "#f5f5f1",
+        "heroImage": "/src/assets/images/vehicles/Granvia/whitepearl.webp"
+      },
+      {
+        "name": "202 BLACK",
+        "nameMn": "202 BLACK",
+        "hex": "#111111",
+        "heroImage": "/src/assets/images/vehicles/Granvia/black.webp"
+      },
+      {
+        "name": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)",
+        "nameMn": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)",
+        "hex": "#d9d1c4",
+        "heroImage": "/src/assets/images/vehicles/Granvia/gray.webp"
+      }
     ],
     "variants": [
       {
@@ -419,27 +1828,99 @@
             "id": "premium",
             "name": "Premium",
             "price": "Starting from ₮170,700,000",
-            "gallery": ["/src/assets/images/vehicles/Granvia/granvia-1.JPG", "/src/assets/images/vehicles/Granvia/granvia-2.JPG"],
+            "gallery": [
+              "/src/assets/images/vehicles/Granvia/granvia-1.JPG",
+              "/src/assets/images/vehicles/Granvia/granvia-2.JPG"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f4f4f4", "heroImage": "/src/assets/images/vehicles/Granvia/granvia-1.JPG" },
-              { "name": "Black", "nameMn": "Хар", "hex": "#1d1d1d", "heroImage": "/src/assets/images/vehicles/Granvia/granvia-2.JPG" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f4f4f4",
+                "heroImage": "/src/assets/images/vehicles/Granvia/granvia-1.JPG"
+              },
+              {
+                "name": "Black",
+                "nameMn": "Хар",
+                "hex": "#1d1d1d",
+                "heroImage": "/src/assets/images/vehicles/Granvia/granvia-2.JPG"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.5L Hybrid", "valueMn": "2.5L Hybrid" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "RWD", "valueMn": "RWD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "e-CVT", "valueMn": "e-CVT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "6", "valueMn": "6" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.5L Hybrid",
+                "valueMn": "2.5L Hybrid"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "RWD",
+                "valueMn": "RWD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "e-CVT",
+                "valueMn": "e-CVT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "6",
+                "valueMn": "6"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Large MPV proportions", "valueMn": "Large MPV proportions" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Captain seat layout", "valueMn": "Captain seat layout" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "Alloy wheels", "valueMn": "Alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Power sliding door", "valueMn": "Power sliding door" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Large MPV proportions",
+                "valueMn": "Large MPV proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Captain seat layout",
+                "valueMn": "Captain seat layout"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Alloy wheels",
+                "valueMn": "Alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Power sliding door",
+                "valueMn": "Power sliding door"
+              }
             ]
           }
         ]
@@ -461,11 +1942,36 @@
       "/src/assets/images/vehicles/Hiace/hiace-3.png"
     ],
     "colors": [
-      { "name": "1E7 SILVER M.M.", "nameMn": "1E7 SILVER M.M.", "hex": "#c1c5ca", "heroImage": "/src/assets/images/vehicles/Hiace/white1.webp" },
-      { "name": "058 WHITE", "nameMn": "058 WHITE", "hex": "#f7f7f4", "heroImage": "/src/assets/images/vehicles/Hiace/white2.webp" },
-      { "name": "070 WHITE PEARL CS.", "nameMn": "070 WHITE PEARL CS.", "hex": "#f5f5f1", "heroImage": "/src/assets/images/vehicles/Hiace/bronze1.webp" },
-      { "name": "202 BLACK", "nameMn": "202 BLACK", "hex": "#111111", "heroImage": "/src/assets/images/vehicles/Hiace/black.webp" },
-      { "name": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)", "nameMn": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)", "hex": "#d9d1c4", "heroImage": "/src/assets/images/vehicles/Hiace/bronze2.webp" }
+      {
+        "name": "1E7 SILVER M.M.",
+        "nameMn": "1E7 SILVER M.M.",
+        "hex": "#c1c5ca",
+        "heroImage": "/src/assets/images/vehicles/Hiace/white1.webp"
+      },
+      {
+        "name": "058 WHITE",
+        "nameMn": "058 WHITE",
+        "hex": "#f7f7f4",
+        "heroImage": "/src/assets/images/vehicles/Hiace/white2.webp"
+      },
+      {
+        "name": "070 WHITE PEARL CS.",
+        "nameMn": "070 WHITE PEARL CS.",
+        "hex": "#f5f5f1",
+        "heroImage": "/src/assets/images/vehicles/Hiace/bronze1.webp"
+      },
+      {
+        "name": "202 BLACK",
+        "nameMn": "202 BLACK",
+        "hex": "#111111",
+        "heroImage": "/src/assets/images/vehicles/Hiace/black.webp"
+      },
+      {
+        "name": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)",
+        "nameMn": "M74 089(PLATINUM WHITE PEARL MC.)/4R4(BEIGE ME)",
+        "hex": "#d9d1c4",
+        "heroImage": "/src/assets/images/vehicles/Hiace/bronze2.webp"
+      }
     ],
     "variants": [
       {
@@ -476,27 +1982,99 @@
             "id": "16-seats",
             "name": "16 seats",
             "price": "Starting from ₮149,500,000",
-            "gallery": ["/src/assets/images/vehicles/Hiace/white_front.jpg", "/src/assets/images/vehicles/Hiace/grey_front.jpg"],
+            "gallery": [
+              "/src/assets/images/vehicles/Hiace/white_front.jpg",
+              "/src/assets/images/vehicles/Hiace/grey_front.jpg"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f2f2f2", "heroImage": "/src/assets/images/vehicles/Hiace/white_front.jpg" },
-              { "name": "Gray", "nameMn": "Саарал", "hex": "#a8adb4", "heroImage": "/src/assets/images/vehicles/Hiace/grey_front.jpg" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f2f2f2",
+                "heroImage": "/src/assets/images/vehicles/Hiace/white_front.jpg"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#a8adb4",
+                "heroImage": "/src/assets/images/vehicles/Hiace/grey_front.jpg"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L gasoline", "valueMn": "2.8L бензин" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "RWD", "valueMn": "RWD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "16", "valueMn": "16" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L gasoline",
+                "valueMn": "2.8L бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "RWD",
+                "valueMn": "RWD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "16",
+                "valueMn": "16"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "High-roof van", "valueMn": "High-roof van" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Passenger shuttle layout", "valueMn": "Passenger shuttle layout" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "16 inch wheels", "valueMn": "16 inch wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Sliding door", "valueMn": "Sliding door" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "High-roof van",
+                "valueMn": "High-roof van"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Passenger shuttle layout",
+                "valueMn": "Passenger shuttle layout"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "16 inch wheels",
+                "valueMn": "16 inch wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Sliding door",
+                "valueMn": "Sliding door"
+              }
             ]
           }
         ]
@@ -509,27 +2087,99 @@
             "id": "16-seats",
             "name": "16 seats",
             "price": "Starting from ₮137,600,000",
-            "gallery": ["/src/assets/images/vehicles/Hiace/white_side.jpg", "/src/assets/images/vehicles/Hiace/grey_side.jpg"],
+            "gallery": [
+              "/src/assets/images/vehicles/Hiace/white_side.jpg",
+              "/src/assets/images/vehicles/Hiace/grey_side.jpg"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f2f2f2", "heroImage": "/src/assets/images/vehicles/Hiace/white_side.jpg" },
-              { "name": "Gray", "nameMn": "Саарал", "hex": "#a8adb4", "heroImage": "/src/assets/images/vehicles/Hiace/grey_side.jpg" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f2f2f2",
+                "heroImage": "/src/assets/images/vehicles/Hiace/white_side.jpg"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#a8adb4",
+                "heroImage": "/src/assets/images/vehicles/Hiace/grey_side.jpg"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "RWD", "valueMn": "RWD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "6MT", "valueMn": "6MT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "16", "valueMn": "16" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "RWD",
+                "valueMn": "RWD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6MT",
+                "valueMn": "6MT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "16",
+                "valueMn": "16"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "High-roof van", "valueMn": "High-roof van" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Passenger shuttle layout", "valueMn": "Passenger shuttle layout" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "16 inch wheels", "valueMn": "16 inch wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Dual sliding doors", "valueMn": "Dual sliding doors" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "High-roof van",
+                "valueMn": "High-roof van"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Passenger shuttle layout",
+                "valueMn": "Passenger shuttle layout"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "16 inch wheels",
+                "valueMn": "16 inch wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Dual sliding doors",
+                "valueMn": "Dual sliding doors"
+              }
             ]
           }
         ]
@@ -551,14 +2201,54 @@
       "/src/assets/images/vehicles/Hilux/hilux-3.JPG"
     ],
     "colors": [
-      { "name": "040 SUPER WHITE 2", "nameMn": "040 SUPER WHITE 2", "hex": "#f8f8f6", "heroImage": "/src/assets/images/vehicles/Hilux/superwhite1.webp" },
-      { "name": "089 PLATINUM WHITE PEARL MC.", "nameMn": "089 PLATINUM WHITE PEARL MC.", "hex": "#f6f4ee", "heroImage": "/src/assets/images/vehicles/Hilux/platinumwhitepearl1.webp" },
-      { "name": "1G3 GRAY ME.", "nameMn": "1G3 GRAY ME.", "hex": "#9fa3a7", "heroImage": "/src/assets/images/vehicles/Hilux/grayme1.webp" },
-      { "name": "1L0 SILVER ME.", "nameMn": "1L0 SILVER ME.", "hex": "#bfc3c7", "heroImage": "/src/assets/images/vehicles/Hilux/silverme1.webp" },
-      { "name": "218 ATTITUDE BLACK MC.", "nameMn": "218 ATTITUDE BLACK MC.", "hex": "#17171a", "heroImage": "/src/assets/images/vehicles/Hilux/attitudeblack1.webp" },
-      { "name": "3U5 EMOTIONAL RED 2", "nameMn": "3U5 EMOTIONAL RED 2", "hex": "#a92c31", "heroImage": "/src/assets/images/vehicles/Hilux/emotionalred1.webp" },
-      { "name": "8X8 DK. BLUE MC.", "nameMn": "8X8 DK. BLUE MC.", "hex": "#1f3d63", "heroImage": "/src/assets/images/vehicles/Hilux/dkbluemc1.webp" },
-      { "name": "1M2 ASH", "nameMn": "1M2 ASH", "hex": "#8d8a82", "heroImage": "/src/assets/images/vehicles/Hilux/ash1.webp" }
+      {
+        "name": "040 SUPER WHITE 2",
+        "nameMn": "040 SUPER WHITE 2",
+        "hex": "#f8f8f6",
+        "heroImage": "/src/assets/images/vehicles/Hilux/superwhite1.webp"
+      },
+      {
+        "name": "089 PLATINUM WHITE PEARL MC.",
+        "nameMn": "089 PLATINUM WHITE PEARL MC.",
+        "hex": "#f6f4ee",
+        "heroImage": "/src/assets/images/vehicles/Hilux/platinumwhitepearl1.webp"
+      },
+      {
+        "name": "1G3 GRAY ME.",
+        "nameMn": "1G3 GRAY ME.",
+        "hex": "#9fa3a7",
+        "heroImage": "/src/assets/images/vehicles/Hilux/grayme1.webp"
+      },
+      {
+        "name": "1L0 SILVER ME.",
+        "nameMn": "1L0 SILVER ME.",
+        "hex": "#bfc3c7",
+        "heroImage": "/src/assets/images/vehicles/Hilux/silverme1.webp"
+      },
+      {
+        "name": "218 ATTITUDE BLACK MC.",
+        "nameMn": "218 ATTITUDE BLACK MC.",
+        "hex": "#17171a",
+        "heroImage": "/src/assets/images/vehicles/Hilux/attitudeblack1.webp"
+      },
+      {
+        "name": "3U5 EMOTIONAL RED 2",
+        "nameMn": "3U5 EMOTIONAL RED 2",
+        "hex": "#a92c31",
+        "heroImage": "/src/assets/images/vehicles/Hilux/emotionalred1.webp"
+      },
+      {
+        "name": "8X8 DK. BLUE MC.",
+        "nameMn": "8X8 DK. BLUE MC.",
+        "hex": "#1f3d63",
+        "heroImage": "/src/assets/images/vehicles/Hilux/dkbluemc1.webp"
+      },
+      {
+        "name": "1M2 ASH",
+        "nameMn": "1M2 ASH",
+        "hex": "#8d8a82",
+        "heroImage": "/src/assets/images/vehicles/Hilux/ash1.webp"
+      }
     ],
     "variants": [
       {
@@ -569,27 +2259,99 @@
             "id": "standard",
             "name": "Standard",
             "price": "Starting from ₮159,000,000",
-            "gallery": ["/src/assets/images/vehicles/Hilux/white_front.png", "/src/assets/images/vehicles/Hilux/grey_front.png"],
+            "gallery": [
+              "/src/assets/images/vehicles/Hilux/white_front.png",
+              "/src/assets/images/vehicles/Hilux/grey_front.png"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f4f4f4", "heroImage": "/src/assets/images/vehicles/Hilux/white_front.png" },
-              { "name": "Gray", "nameMn": "Саарал", "hex": "#9ca1a8", "heroImage": "/src/assets/images/vehicles/Hilux/grey_front.png" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f4f4f4",
+                "heroImage": "/src/assets/images/vehicles/Hilux/white_front.png"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#9ca1a8",
+                "heroImage": "/src/assets/images/vehicles/Hilux/grey_front.png"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L gasoline", "valueMn": "2.8L бензин" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L gasoline",
+                "valueMn": "2.8L бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Pickup proportions", "valueMn": "Pickup proportions" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Practical cabin", "valueMn": "Practical cabin" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "17 inch alloy wheels", "valueMn": "17 inch alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Cargo bed liner", "valueMn": "Cargo bed liner" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Pickup proportions",
+                "valueMn": "Pickup proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Practical cabin",
+                "valueMn": "Practical cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "17 inch alloy wheels",
+                "valueMn": "17 inch alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Cargo bed liner",
+                "valueMn": "Cargo bed liner"
+              }
             ]
           }
         ]
@@ -602,27 +2364,99 @@
             "id": "standard",
             "name": "Standard",
             "price": "TBA",
-            "gallery": ["/src/assets/images/vehicles/Hilux/hilux-4.JPG", "/src/assets/images/vehicles/Hilux/hilux-5.JPG"],
+            "gallery": [
+              "/src/assets/images/vehicles/Hilux/hilux-4.JPG",
+              "/src/assets/images/vehicles/Hilux/hilux-5.JPG"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#f4f4f4", "heroImage": "/src/assets/images/vehicles/Hilux/hilux-4.JPG" },
-              { "name": "Gray", "nameMn": "Саарал", "hex": "#9ca1a8", "heroImage": "/src/assets/images/vehicles/Hilux/hilux-5.JPG" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#f4f4f4",
+                "heroImage": "/src/assets/images/vehicles/Hilux/hilux-4.JPG"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#9ca1a8",
+                "heroImage": "/src/assets/images/vehicles/Hilux/hilux-5.JPG"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "Battery electric", "valueMn": "Battery electric" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "4WD", "valueMn": "4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "Single-speed", "valueMn": "Single-speed" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "N/A", "valueMn": "N/A" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "Battery electric",
+                "valueMn": "Battery electric"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "4WD",
+                "valueMn": "4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "Single-speed",
+                "valueMn": "Single-speed"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "N/A",
+                "valueMn": "N/A"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Pickup proportions", "valueMn": "Pickup proportions" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "EV quietness", "valueMn": "EV quietness" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "Alloy wheels", "valueMn": "Alloy wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Charge port", "valueMn": "Charge port" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Pickup proportions",
+                "valueMn": "Pickup proportions"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "EV quietness",
+                "valueMn": "EV quietness"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Alloy wheels",
+                "valueMn": "Alloy wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Charge port",
+                "valueMn": "Charge port"
+              }
             ]
           }
         ]
@@ -644,14 +2478,54 @@
       "/src/assets/images/vehicles/LC70/lc70ser-3.JPG"
     ],
     "colors": [
-      { "name": "058 WHITE", "nameMn": "058 WHITE", "hex": "#f7f7f4", "heroImage": "/src/assets/images/vehicles/LC70/76white1.webp" },
-      { "name": "1F7 SILVER ME.", "nameMn": "1F7 SILVER ME.", "hex": "#bfc3c7", "heroImage": "/src/assets/images/vehicles/LC70/76silver1.webp" },
-      { "name": "1G3 GRAY ME.", "nameMn": "1G3 GRAY ME.", "hex": "#9fa3a7", "heroImage": "/src/assets/images/vehicles/LC70/76gray1.webp" },
-      { "name": "218 ATTITUDE BLACK MC.", "nameMn": "218 ATTITUDE BLACK MC.", "hex": "#17171a", "heroImage": "/src/assets/images/vehicles/LC70/76attitudeblack1.webp" },
-      { "name": "3Q3 DK. RED M.M.", "nameMn": "3Q3 DK. RED M.M.", "hex": "#7a2129", "heroImage": "/src/assets/images/vehicles/LC70/76dkred1.webp" },
-      { "name": "4E9 BEIGE", "nameMn": "4E9 BEIGE", "hex": "#cbb79a", "heroImage": "/src/assets/images/vehicles/LC70/76beige1.webp" },
-      { "name": "4V8 AVANT-GARDE BRONZE ME.", "nameMn": "4V8 AVANT-GARDE BRONZE ME.", "hex": "#8b7663", "heroImage": "/src/assets/images/vehicles/LC70/76beige1.webp" },
-      { "name": "8H6 BLUE", "nameMn": "8H6 BLUE", "hex": "#2f5d90", "heroImage": "/src/assets/images/vehicles/LC70/76blue1.webp" }
+      {
+        "name": "058 WHITE",
+        "nameMn": "058 WHITE",
+        "hex": "#f7f7f4",
+        "heroImage": "/src/assets/images/vehicles/LC70/76white1.webp"
+      },
+      {
+        "name": "1F7 SILVER ME.",
+        "nameMn": "1F7 SILVER ME.",
+        "hex": "#bfc3c7",
+        "heroImage": "/src/assets/images/vehicles/LC70/76silver1.webp"
+      },
+      {
+        "name": "1G3 GRAY ME.",
+        "nameMn": "1G3 GRAY ME.",
+        "hex": "#9fa3a7",
+        "heroImage": "/src/assets/images/vehicles/LC70/76gray1.webp"
+      },
+      {
+        "name": "218 ATTITUDE BLACK MC.",
+        "nameMn": "218 ATTITUDE BLACK MC.",
+        "hex": "#17171a",
+        "heroImage": "/src/assets/images/vehicles/LC70/76attitudeblack1.webp"
+      },
+      {
+        "name": "3Q3 DK. RED M.M.",
+        "nameMn": "3Q3 DK. RED M.M.",
+        "hex": "#7a2129",
+        "heroImage": "/src/assets/images/vehicles/LC70/76dkred1.webp"
+      },
+      {
+        "name": "4E9 BEIGE",
+        "nameMn": "4E9 BEIGE",
+        "hex": "#cbb79a",
+        "heroImage": "/src/assets/images/vehicles/LC70/76beige1.webp"
+      },
+      {
+        "name": "4V8 AVANT-GARDE BRONZE ME.",
+        "nameMn": "4V8 AVANT-GARDE BRONZE ME.",
+        "hex": "#8b7663",
+        "heroImage": "/src/assets/images/vehicles/LC70/76beige1.webp"
+      },
+      {
+        "name": "8H6 BLUE",
+        "nameMn": "8H6 BLUE",
+        "hex": "#2f5d90",
+        "heroImage": "/src/assets/images/vehicles/LC70/76blue1.webp"
+      }
     ],
     "variants": [
       {
@@ -662,81 +2536,297 @@
             "id": "petrol",
             "name": "Petrol",
             "price": "Starting from ₮123,800,000",
-            "gallery": ["/src/assets/images/vehicles/LC70/76white1.webp", "/src/assets/images/vehicles/LC70/76gray1.webp"],
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/76white1.webp",
+              "/src/assets/images/vehicles/LC70/76gray1.webp"
+            ],
             "colors": [
-              { "name": "White", "nameMn": "Цагаан", "hex": "#efefef", "heroImage": "/src/assets/images/vehicles/LC70/76white1.webp" },
-              { "name": "Gray", "nameMn": "Саарал", "hex": "#aeb2b6", "heroImage": "/src/assets/images/vehicles/LC70/76gray1.webp" }
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#efefef",
+                "heroImage": "/src/assets/images/vehicles/LC70/76white1.webp"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#aeb2b6",
+                "heroImage": "/src/assets/images/vehicles/LC70/76gray1.webp"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "4.0L gasoline", "valueMn": "4.0L бензин" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "4.0L gasoline",
+                "valueMn": "4.0L бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Classic wagon body", "valueMn": "Classic wagon body" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Durable cabin", "valueMn": "Durable cabin" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Ladder-frame chassis", "valueMn": "Ladder-frame chassis" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Classic wagon body",
+                "valueMn": "Classic wagon body"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Durable cabin",
+                "valueMn": "Durable cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Ladder-frame chassis",
+                "valueMn": "Ladder-frame chassis"
+              }
             ]
           },
           {
             "id": "diesel-at",
             "name": "Diesel AT",
             "price": "TBA",
-            "gallery": ["/src/assets/images/vehicles/LC70/76beige1.webp", "/src/assets/images/vehicles/LC70/76gray1.webp"],
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/76beige1.webp",
+              "/src/assets/images/vehicles/LC70/76gray1.webp"
+            ],
             "colors": [
-              { "name": "Beige", "nameMn": "Беж", "hex": "#c7b08d", "heroImage": "/src/assets/images/vehicles/LC70/76beige1.webp" },
-              { "name": "Gray", "nameMn": "Саарал", "hex": "#aeb2b6", "heroImage": "/src/assets/images/vehicles/LC70/76gray1.webp" }
+              {
+                "name": "Beige",
+                "nameMn": "Беж",
+                "hex": "#c7b08d",
+                "heroImage": "/src/assets/images/vehicles/LC70/76beige1.webp"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#aeb2b6",
+                "heroImage": "/src/assets/images/vehicles/LC70/76gray1.webp"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Classic wagon body", "valueMn": "Classic wagon body" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Durable cabin", "valueMn": "Durable cabin" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Long-range fuel tank", "valueMn": "Long-range fuel tank" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Classic wagon body",
+                "valueMn": "Classic wagon body"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Durable cabin",
+                "valueMn": "Durable cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Long-range fuel tank",
+                "valueMn": "Long-range fuel tank"
+              }
             ]
           },
           {
             "id": "diesel-mt",
             "name": "Diesel MT",
             "price": "TBA",
-            "gallery": ["/src/assets/images/vehicles/LC70/76blue1.webp", "/src/assets/images/vehicles/LC70/76dkred1.webp"],
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/76blue1.webp",
+              "/src/assets/images/vehicles/LC70/76dkred1.webp"
+            ],
             "colors": [
-              { "name": "Blue", "nameMn": "Хөх", "hex": "#4b6fa8", "heroImage": "/src/assets/images/vehicles/LC70/76blue1.webp" },
-              { "name": "Dark Red", "nameMn": "Бараан улаан", "hex": "#7b1e24", "heroImage": "/src/assets/images/vehicles/LC70/76dkred1.webp" }
+              {
+                "name": "Blue",
+                "nameMn": "Хөх",
+                "hex": "#4b6fa8",
+                "heroImage": "/src/assets/images/vehicles/LC70/76blue1.webp"
+              },
+              {
+                "name": "Dark Red",
+                "nameMn": "Бараан улаан",
+                "hex": "#7b1e24",
+                "heroImage": "/src/assets/images/vehicles/LC70/76dkred1.webp"
+              }
             ],
             "specs": [
-              { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" },
-              { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" },
-              { "label": "Transmission", "labelMn": "Transmission", "value": "6MT", "valueMn": "6MT" },
-              { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" },
-              { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" },
-              { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" }
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6MT",
+                "valueMn": "6MT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
             ],
             "overview": [
-              { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Classic wagon body", "valueMn": "Classic wagon body" },
-              { "label": "Comfort", "labelMn": "Тав тух", "value": "Durable cabin", "valueMn": "Durable cabin" },
-              { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" },
-              { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" },
-              { "label": "Accessories", "labelMn": "Дагалдах", "value": "Manual gearbox", "valueMn": "Manual gearbox" }
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Classic wagon body",
+                "valueMn": "Classic wagon body"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Durable cabin",
+                "valueMn": "Durable cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Manual gearbox",
+                "valueMn": "Manual gearbox"
+              }
             ]
           }
         ]
@@ -745,17 +2835,507 @@
         "id": "lc78",
         "name": "LC78",
         "trims": [
-          { "id": "petrol", "name": "Petrol", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC70/78white1.webp", "/src/assets/images/vehicles/LC70/78gray1.webp"], "colors": [ { "name": "White", "nameMn": "Цагаан", "hex": "#efefef", "heroImage": "/src/assets/images/vehicles/LC70/78white1.webp" }, { "name": "Gray", "nameMn": "Саарал", "hex": "#aeb2b6", "heroImage": "/src/assets/images/vehicles/LC70/78gray1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "4.0L gasoline", "valueMn": "4.0L бензин" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" }, { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Classic wagon body", "valueMn": "Classic wagon body" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Durable cabin", "valueMn": "Durable cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Utility focused", "valueMn": "Utility focused" } ] },
-          { "id": "diesel-at", "name": "Diesel AT", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC70/78beige1.webp", "/src/assets/images/vehicles/LC70/78blue1.webp"], "colors": [ { "name": "Beige", "nameMn": "Беж", "hex": "#c7b08d", "heroImage": "/src/assets/images/vehicles/LC70/78beige1.webp" }, { "name": "Blue", "nameMn": "Хөх", "hex": "#4b6fa8", "heroImage": "/src/assets/images/vehicles/LC70/78blue1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" }, { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Classic wagon body", "valueMn": "Classic wagon body" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Durable cabin", "valueMn": "Durable cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Automatic transmission", "valueMn": "Automatic transmission" } ] },
-          { "id": "diesel-mt", "name": "Diesel MT", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC70/78dkred1.webp", "/src/assets/images/vehicles/LC70/78silver1.webp"], "colors": [ { "name": "Dark Red", "nameMn": "Бараан улаан", "hex": "#7b1e24", "heroImage": "/src/assets/images/vehicles/LC70/78dkred1.webp" }, { "name": "Silver", "nameMn": "Мөнгөлөг", "hex": "#aeb2b6", "heroImage": "/src/assets/images/vehicles/LC70/78silver1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "6MT", "valueMn": "6MT" }, { "label": "Seats", "labelMn": "Суудал", "value": "5", "valueMn": "5" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Classic wagon body", "valueMn": "Classic wagon body" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Durable cabin", "valueMn": "Durable cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Manual transmission", "valueMn": "Manual transmission" } ] }
+          {
+            "id": "petrol",
+            "name": "Petrol",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/78white1.webp",
+              "/src/assets/images/vehicles/LC70/78gray1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#efefef",
+                "heroImage": "/src/assets/images/vehicles/LC70/78white1.webp"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#aeb2b6",
+                "heroImage": "/src/assets/images/vehicles/LC70/78gray1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "4.0L gasoline",
+                "valueMn": "4.0L бензин"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Classic wagon body",
+                "valueMn": "Classic wagon body"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Durable cabin",
+                "valueMn": "Durable cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Utility focused",
+                "valueMn": "Utility focused"
+              }
+            ]
+          },
+          {
+            "id": "diesel-at",
+            "name": "Diesel AT",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/78beige1.webp",
+              "/src/assets/images/vehicles/LC70/78blue1.webp"
+            ],
+            "colors": [
+              {
+                "name": "Beige",
+                "nameMn": "Беж",
+                "hex": "#c7b08d",
+                "heroImage": "/src/assets/images/vehicles/LC70/78beige1.webp"
+              },
+              {
+                "name": "Blue",
+                "nameMn": "Хөх",
+                "hex": "#4b6fa8",
+                "heroImage": "/src/assets/images/vehicles/LC70/78blue1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Classic wagon body",
+                "valueMn": "Classic wagon body"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Durable cabin",
+                "valueMn": "Durable cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Automatic transmission",
+                "valueMn": "Automatic transmission"
+              }
+            ]
+          },
+          {
+            "id": "diesel-mt",
+            "name": "Diesel MT",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/78dkred1.webp",
+              "/src/assets/images/vehicles/LC70/78silver1.webp"
+            ],
+            "colors": [
+              {
+                "name": "Dark Red",
+                "nameMn": "Бараан улаан",
+                "hex": "#7b1e24",
+                "heroImage": "/src/assets/images/vehicles/LC70/78dkred1.webp"
+              },
+              {
+                "name": "Silver",
+                "nameMn": "Мөнгөлөг",
+                "hex": "#aeb2b6",
+                "heroImage": "/src/assets/images/vehicles/LC70/78silver1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6MT",
+                "valueMn": "6MT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "5",
+                "valueMn": "5"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Classic wagon body",
+                "valueMn": "Classic wagon body"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Durable cabin",
+                "valueMn": "Durable cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Manual transmission",
+                "valueMn": "Manual transmission"
+              }
+            ]
+          }
         ]
       },
       {
         "id": "lc79",
         "name": "LC79",
         "trims": [
-          { "id": "diesel-at", "name": "Diesel AT", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC70/79white1.webp", "/src/assets/images/vehicles/LC70/79gray1.webp"], "colors": [ { "name": "White", "nameMn": "Цагаан", "hex": "#efefef", "heroImage": "/src/assets/images/vehicles/LC70/79white1.webp" }, { "name": "Gray", "nameMn": "Саарал", "hex": "#aeb2b6", "heroImage": "/src/assets/images/vehicles/LC70/79gray1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "6AT", "valueMn": "6AT" }, { "label": "Seats", "labelMn": "Суудал", "value": "2", "valueMn": "2" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Single cab pickup", "valueMn": "Single cab pickup" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Work-focused cabin", "valueMn": "Work-focused cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Load bed ready", "valueMn": "Load bed ready" } ] },
-          { "id": "diesel-mt", "name": "Diesel MT", "price": "TBA", "gallery": ["/src/assets/images/vehicles/LC70/79beige1.webp", "/src/assets/images/vehicles/LC70/79blue1.webp"], "colors": [ { "name": "Beige", "nameMn": "Беж", "hex": "#c7b08d", "heroImage": "/src/assets/images/vehicles/LC70/79beige1.webp" }, { "name": "Blue", "nameMn": "Хөх", "hex": "#4b6fa8", "heroImage": "/src/assets/images/vehicles/LC70/79blue1.webp" } ], "specs": [ { "label": "Engine", "labelMn": "Хөдөлгүүр", "value": "2.8L Diesel", "valueMn": "2.8L дизель" }, { "label": "Power", "labelMn": "Хүч", "value": "TBA", "valueMn": "TBA" }, { "label": "Drive", "labelMn": "Drive", "value": "Part-time 4WD", "valueMn": "Part-time 4WD" }, { "label": "Transmission", "labelMn": "Transmission", "value": "6MT", "valueMn": "6MT" }, { "label": "Seats", "labelMn": "Суудал", "value": "2", "valueMn": "2" }, { "label": "Fuel Tank", "labelMn": "Түлшний сав", "value": "TBA", "valueMn": "TBA" }, { "label": "Top Speed", "labelMn": "Дээд хурд", "value": "TBA", "valueMn": "TBA" }, { "label": "Acceleration", "labelMn": "0-100 км/ц", "value": "TBA", "valueMn": "TBA" } ], "overview": [ { "label": "Dimensions", "labelMn": "Хэмжээс", "value": "Single cab pickup", "valueMn": "Single cab pickup" }, { "label": "Comfort", "labelMn": "Тав тух", "value": "Work-focused cabin", "valueMn": "Work-focused cabin" }, { "label": "Safety", "labelMn": "Аюулгүй байдал", "value": "Toyota Safety Sense", "valueMn": "Toyota Safety Sense" }, { "label": "Wheels", "labelMn": "Дугуй", "value": "Steel wheels", "valueMn": "Steel wheels" }, { "label": "Accessories", "labelMn": "Дагалдах", "value": "Load bed ready", "valueMn": "Load bed ready" } ] }
+          {
+            "id": "diesel-at",
+            "name": "Diesel AT",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/79white1.webp",
+              "/src/assets/images/vehicles/LC70/79gray1.webp"
+            ],
+            "colors": [
+              {
+                "name": "White",
+                "nameMn": "Цагаан",
+                "hex": "#efefef",
+                "heroImage": "/src/assets/images/vehicles/LC70/79white1.webp"
+              },
+              {
+                "name": "Gray",
+                "nameMn": "Саарал",
+                "hex": "#aeb2b6",
+                "heroImage": "/src/assets/images/vehicles/LC70/79gray1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6AT",
+                "valueMn": "6AT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "2",
+                "valueMn": "2"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Single cab pickup",
+                "valueMn": "Single cab pickup"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Work-focused cabin",
+                "valueMn": "Work-focused cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Load bed ready",
+                "valueMn": "Load bed ready"
+              }
+            ]
+          },
+          {
+            "id": "diesel-mt",
+            "name": "Diesel MT",
+            "price": "TBA",
+            "gallery": [
+              "/src/assets/images/vehicles/LC70/79beige1.webp",
+              "/src/assets/images/vehicles/LC70/79blue1.webp"
+            ],
+            "colors": [
+              {
+                "name": "Beige",
+                "nameMn": "Беж",
+                "hex": "#c7b08d",
+                "heroImage": "/src/assets/images/vehicles/LC70/79beige1.webp"
+              },
+              {
+                "name": "Blue",
+                "nameMn": "Хөх",
+                "hex": "#4b6fa8",
+                "heroImage": "/src/assets/images/vehicles/LC70/79blue1.webp"
+              }
+            ],
+            "specs": [
+              {
+                "label": "Engine",
+                "labelMn": "Хөдөлгүүр",
+                "value": "2.8L Diesel",
+                "valueMn": "2.8L дизель"
+              },
+              {
+                "label": "Power",
+                "labelMn": "Хүч",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Drive",
+                "labelMn": "Drive",
+                "value": "Part-time 4WD",
+                "valueMn": "Part-time 4WD"
+              },
+              {
+                "label": "Transmission",
+                "labelMn": "Transmission",
+                "value": "6MT",
+                "valueMn": "6MT"
+              },
+              {
+                "label": "Seats",
+                "labelMn": "Суудал",
+                "value": "2",
+                "valueMn": "2"
+              },
+              {
+                "label": "Fuel Tank",
+                "labelMn": "Түлшний сав",
+                "value": "TBA",
+                "valueMn": "TBA"
+              },
+              {
+                "label": "Top Speed",
+                "labelMn": "Дээд хурд",
+                "value": "TBA",
+                "valueMn": "TBA"
+              }
+            ],
+            "overview": [
+              {
+                "label": "Dimensions",
+                "labelMn": "Хэмжээс",
+                "value": "Single cab pickup",
+                "valueMn": "Single cab pickup"
+              },
+              {
+                "label": "Comfort",
+                "labelMn": "Тав тух",
+                "value": "Work-focused cabin",
+                "valueMn": "Work-focused cabin"
+              },
+              {
+                "label": "Safety",
+                "labelMn": "Аюулгүй байдал",
+                "value": "Toyota Safety Sense",
+                "valueMn": "Toyota Safety Sense"
+              },
+              {
+                "label": "Wheels",
+                "labelMn": "Дугуй",
+                "value": "Steel wheels",
+                "valueMn": "Steel wheels"
+              },
+              {
+                "label": "Accessories",
+                "labelMn": "Дагалдах",
+                "value": "Load bed ready",
+                "valueMn": "Load bed ready"
+              }
+            ]
+          }
         ]
       }
     ],

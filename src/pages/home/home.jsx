@@ -19,6 +19,7 @@ const vehicleImageModules = import.meta.glob('../../assets/images/vehicles/**/*.
 });
 
 const FEATURED_VEHICLE_ID = 'lc300';
+const QUICK_SPEC_LABELS = ['Engine', 'Power', 'Drive', 'Transmission', 'Seats', 'Fuel Tank', 'Top Speed', 'Acceleration'];
 
 function resolveVehicleImage(assetPath) {
     if (!assetPath) {
@@ -37,8 +38,16 @@ function localizeVehicleField(vehicle, fieldName, language) {
     return vehicle[fieldName] || '';
 }
 
-function getFirstTrim(vehicle) {
-    return vehicle?.trims?.[0] || null;
+function formatHeroPrice(trim, language) {
+    const rawPrice = language === 'mn' ? trim?.priceMn || trim?.price : trim?.price;
+    if (!rawPrice) {
+        return '';
+    }
+
+    return String(rawPrice)
+        .replace(/^\s*Starting from\s*/i, '')
+        .replace(/^\s*Эхлэх үнэ\s*/i, '')
+        .trim();
 }
 
 function getVariants(vehicle) {
@@ -57,6 +66,26 @@ function getFirstVariant(vehicle) {
 
 function getFirstTrimInVariant(variant) {
     return variant?.trims?.[0] || null;
+}
+
+function buildTrimOptions(variants, includeVariantPrefix) {
+    return variants.flatMap((variant) =>
+        (variant?.trims || []).map((trim) => {
+            const optionId = `${variant.id}::${trim.id}`;
+            const prefixedName = includeVariantPrefix ? `${variant.name} · ${trim.name}` : trim.name;
+            const prefixedNameMn = includeVariantPrefix
+                ? `${variant.nameMn || variant.name} · ${trim.nameMn || trim.name}`
+                : trim.nameMn || trim.name;
+
+            return {
+                id: optionId,
+                name: prefixedName,
+                nameMn: prefixedNameMn,
+                variantId: variant.id,
+                trimId: trim.id
+            };
+        })
+    );
 }
 
 function getColorOptions(vehicle, variant, trim) {
@@ -115,7 +144,7 @@ function HeroInfo({ vehicle, variant, trim, language }) {
             <p className="hero-trim-name">{displayName}</p>
             <div className="hero-price-block">
                 <p className="hero-price-label">{language === 'mn' ? 'Эхлэх үнэ' : 'Starting from'}</p>
-                <p className="hero-price">{language === 'mn' ? trim?.priceMn || trim?.price : trim?.price}</p>
+                <p className="hero-price">{formatHeroPrice(trim, language)}</p>
             </div>
             <button type="button" className="hero-cta">
                 {language === 'mn' ? 'Лизинг тооцоолох' : 'Leasing Calculator'}
@@ -166,6 +195,9 @@ export default function Home() {
         return selectedVariant.trims.find((trim) => trim.id === selectedTrimId) || selectedVariant.trims[0];
     }, [selectedVariant, selectedTrimId]);
 
+    const trimOptions = useMemo(() => buildTrimOptions(variants, variants.length > 1), [variants]);
+    const selectedTrimOptionId = `${selectedVariant?.id || ''}::${selectedTrim?.id || ''}`;
+
     const colorOptions = useMemo(() => getColorOptions(selectedVehicle, selectedVariant, selectedTrim), [selectedVehicle, selectedVariant, selectedTrim]);
 
     const selectedColor = useMemo(() => {
@@ -175,6 +207,11 @@ export default function Home() {
 
         return colorOptions.find((color) => color.name === selectedColorName) || colorOptions[0];
     }, [colorOptions, selectedColorName]);
+
+    const quickSpecs = useMemo(() => {
+        const sourceSpecs = selectedTrim?.specs || [];
+        return QUICK_SPEC_LABELS.map((label) => sourceSpecs.find((spec) => spec.label === label)).filter(Boolean);
+    }, [selectedTrim]);
 
     const selectedColorFrames = useMemo(
         () => buildFrameSequence(selectedColor?.heroImage ? resolveVehicleImage(selectedColor.heroImage) : ''),
@@ -211,17 +248,6 @@ export default function Home() {
         setIsGalleryMode(false);
     }, [selectedTrimId, colorOptions]);
 
-    useEffect(() => {
-        const trim = getFirstTrimInVariant(selectedVariant);
-        const colors = getColorOptions(selectedVehicle, selectedVariant, trim);
-        const color = getFirstColor(colors);
-
-        setSelectedTrimId(trim?.id || '');
-        setSelectedColorName(color?.name || '');
-        setActiveGalleryIndex(0);
-        setIsGalleryMode(false);
-    }, [selectedVariantId]);
-
     function handleSelectVehicle(id) {
         const nextIndex = vehicles.findIndex((vehicle) => vehicle.id === id);
         if (nextIndex >= 0) {
@@ -229,8 +255,16 @@ export default function Home() {
         }
     }
 
-    function handleSelectVariant(id) {
-        setSelectedVariantId(id);
+    function handleSelectTrimOption(optionId) {
+        const selectedOption = trimOptions.find((option) => option.id === optionId);
+        if (!selectedOption) {
+            return;
+        }
+
+        setSelectedVariantId(selectedOption.variantId);
+        setSelectedTrimId(selectedOption.trimId);
+        setActiveGalleryIndex(0);
+        setIsGalleryMode(false);
     }
 
     function showPrevImage() {
@@ -262,46 +296,45 @@ export default function Home() {
     return (
         <div className="home-page">
             <Header items={vehicles} selectedId={selectedVehicle.id} onSelect={handleSelectVehicle} language={language} />
+                
+                <TrimSelector
+                    trims={trimOptions}
+                    selectedTrimId={selectedTrimOptionId}
+                    onSelectTrim={handleSelectTrimOption}
+                    language={language}
+                />
 
-            <section className="hero-section">
-                <HeroInfo vehicle={selectedVehicle} variant={selectedVariant} trim={selectedTrim} language={language} />
+            <main className="home-content">
 
-                <div className="hero-media">
-                    <VehicleGallery
-                        vehicleName={localizeVehicleField(selectedVehicle, 'name', language)}
-                        mainImage={mainImage}
-                        onPrev={showPrevImage}
-                        onNext={showNextImage}
-                        onSwipeLeft={showNextImage}
-                        onSwipeRight={showPrevImage}
-                    />
+                    
+                <section className="hero-section">
+                    <div className="hero-info-column">
+
+                        <HeroInfo vehicle={selectedVehicle} variant={selectedVariant} trim={selectedTrim} language={language} />
+                    </div>
+
+                    <div className="hero-media">
+                        <VehicleGallery
+                            vehicleName={localizeVehicleField(selectedVehicle, 'name', language)}
+                            mainImage={mainImage}
+                            onPrev={showPrevImage}
+                            onNext={showNextImage}
+                            onSwipeLeft={showNextImage}
+                            onSwipeRight={showPrevImage}
+                        />
+                    </div>
+                </section>
+
+                <section className="color-section" aria-label="Color selector section">
                     <ColorSelector
                         colors={colorOptions}
                         selectedColorName={selectedColor?.name || ''}
                         onSelectColor={handleSelectColor}
                     />
-                </div>
-            </section>
+                </section>
 
-            {variants.length > 1 ? (
-                <TrimSelector
-                    trims={variants}
-                    selectedTrimId={selectedVariant?.id || ''}
-                    onSelectTrim={handleSelectVariant}
-                    language={language}
-                />
-            ) : null}
-
-            <TrimSelector
-                trims={selectedVariant?.trims || selectedVehicle.trims || []}
-                selectedTrimId={selectedTrim?.id || ''}
-                onSelectTrim={setSelectedTrimId}
-                language={language}
-            />
-
-            <Specifications specs={selectedTrim?.specs || []} language={language} />
-
-            {selectedTrim?.overview?.length ? <Specifications specs={selectedTrim.overview} language={language} /> : null}
+                <Specifications specs={quickSpecs} language={language} />
+            </main>
 
             <ChatButton />
         </div>

@@ -13,7 +13,7 @@ function ColorSelector({ colors, selectedColorName, onSelectColor }) {
                     aria-label={`Color ${color.name}`}
                 >
                     <span className="color-swatch" style={{ backgroundColor: color.hex }} aria-hidden="true" />
-                    {selectedColorName === color.name ? <span className="color-check" aria-hidden="true">✓</span> : null}
+                    {selectedColorName === color.name ? <span className="color-check" aria-hidden="true" /> : null}
                 </button>
             ))}
         </section>

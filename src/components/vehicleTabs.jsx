@@ -14,7 +14,7 @@ function VehicleTabs({ items, selectedId, onSelect, language }) {
                     <li key={vehicle.id} className="vehicle-tabs-item">
                         <button
                             type="button"
-                            className="vehicle-tabs-button"
+                            className={`vehicle-tabs-button ${vehicle.id === selectedId ? 'vehicle-tabs-active' : ''}`}
                             aria-selected={vehicle.id === selectedId}
                             onClick={() => onSelect(vehicle.id)}
                         >

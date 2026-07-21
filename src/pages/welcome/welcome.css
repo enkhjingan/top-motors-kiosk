@@ -3,7 +3,6 @@
     position: relative;
     width: 100vw;
     min-height: 100vh;
-    padding: clamp(20px, 2vw, 36px);
 
     display: flex;
     flex-direction: column;
@@ -18,11 +17,6 @@
     background-position:right center;
 }
 
-.MNlogo {
-  height: 16rem;
-  object-fit: contain;
-}
-
 .logo-welcome {
   display: flex-start;
   justify-content: center;
@@ -33,13 +27,13 @@
 
 .welcome-header {
     width: 100%;
-    height: 4rem;
+    height: 6rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    padding: clamp(1rem,2vw,2rem) clamp(2rem,4vw,4rem);
+    padding: clamp(1rem,2vw,2rem) clamp(48px, 8vw, 96px);
 }
 
 .welcome-main {
@@ -49,7 +43,7 @@
     justify-content: flex-start;
     align-items: center;
     flex: 1;
-    padding-left: clamp(2rem,4vw,8rem);
+    padding-left: clamp(48px, 8vw, 96px);
     padding-bottom: clamp(2rem,4vw,8rem);
     margin:0;
 }

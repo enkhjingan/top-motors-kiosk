@@ -123,12 +123,12 @@ body {
 }
 
 .logo-group {
+  align-items: center;
   display: flex;
 }
 
 .logo {
   height: 3rem;
-  object-fit: contain;
 }
 
 .header {
@@ -144,6 +144,7 @@ body {
     padding: clamp(1rem,2vw,2rem) clamp(2rem,4vw,4rem);
 }
 
+
 .vehicle-tabs {
     width: 100%;
 }
@@ -156,20 +157,36 @@ body {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+  background-color: var(--white);
 }
 
 .vehicle-tabs-button {
+  position: relative;
     background: transparent;
     border: 0;
-    font-size: clamp(1rem,1.2vw,1.3rem);
+  color: var(--gray-400);
+  font-size: clamp(1rem,1.2vw,1.3rem);
+  font-weight: 400;
     line-height: 1;
-    padding: 4px 2px;
+  padding: 0.4rem 0;
     cursor: pointer;
 }
 
-.vehicle-tabs-button[aria-selected='true'] {
-    font-weight: 800;
-    border-bottom: 2px solid var(--black);
+.vehicle-tabs-button.vehicle-tabs-active {
+  color: var(--black);
+  font-weight: 800;
+}
+
+.vehicle-tabs-button.vehicle-tabs-active::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 130%;
+  height: 4px;
+  background: var(--primary);
+  border-radius: 999px;
 }
 
 .language-switcher {

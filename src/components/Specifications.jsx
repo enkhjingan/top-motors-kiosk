@@ -13,8 +13,10 @@ function localizeSpec(spec, language) {
 }
 
 function Specifications({ specs, language }) {
+    const itemCount = Math.max(specs.length, 1);
+
     return (
-        <section className="specs-strip" aria-label="Vehicle specifications">
+        <section className="specs-strip" aria-label="Vehicle specifications" style={{ '--spec-count': itemCount }}>
             {specs.map((spec) => {
                 const localized = localizeSpec(spec, language);
                 return (

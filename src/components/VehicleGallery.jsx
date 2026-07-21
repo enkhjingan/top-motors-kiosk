@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 
 function VehicleGallery({
     vehicleName,
@@ -11,17 +11,6 @@ function VehicleGallery({
     const touchStartX = useRef(null);
     const pointerStartX = useRef(null);
     const isPointerDown = useRef(false);
-    const [displayImage, setDisplayImage] = useState(mainImage);
-    const [isLoaded, setIsLoaded] = useState(true);
-
-    useEffect(() => {
-        setIsLoaded(false);
-        setDisplayImage(mainImage);
-    }, [mainImage]);
-
-    function handleImageLoad() {
-        setIsLoaded(true);
-    }
 
     function handleDragAdvance(currentX) {
         if (pointerStartX.current === null) {
@@ -71,6 +60,7 @@ function VehicleGallery({
     }
 
     function handlePointerDown(event) {
+        event.preventDefault();
         isPointerDown.current = true;
         pointerStartX.current = event.clientX;
         event.currentTarget.setPointerCapture?.(event.pointerId);
@@ -117,22 +107,24 @@ function VehicleGallery({
                 onPointerCancel={handlePointerUp}
                 onWheel={handleWheel}
             >
-                <button type="button" className="image-arrow image-arrow-left" aria-label="Previous image" onClick={onPrev}>
+                <img
+                    className="vehicle-image"
+                    src={mainImage}
+                    alt={vehicleName}
+                    draggable={false}
+                    onDragStart={(event) => event.preventDefault()}
+                />
+            </div>
+
+            <div className="rotate-controls" aria-label="Rotate controls">
+                <button type="button" className="rotate-arrow rotate-arrow-left" aria-label="Previous frame" onClick={onPrev}>
                     &lt;
                 </button>
-                <img
-                    key={displayImage}
-                    className={`vehicle-image ${isLoaded ? 'is-loaded' : 'is-loading'}`}
-                    src={displayImage}
-                    alt={vehicleName}
-                    onLoad={handleImageLoad}
-                />
-                <button type="button" className="image-arrow image-arrow-right" aria-label="Next image" onClick={onNext}>
+                <p className="vehicle-rotate-hint">Drag or scroll to rotate</p>
+                <button type="button" className="rotate-arrow rotate-arrow-right" aria-label="Next frame" onClick={onNext}>
                     &gt;
                 </button>
             </div>
-
-            <p className="vehicle-rotate-hint">Drag or scroll to rotate</p>
         </section>
     );
 }
