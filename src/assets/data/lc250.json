@@ -1,0 +1,459 @@
+{
+    "id": "lc250",
+    "name": "Land Cruiser 250",
+    "colors": [
+        {
+            "name": "PLATINUM WHITE PEARL MC.",
+            "nameMn": "Сувдан цагаан",
+            "hex": "#f6f4ee",
+            "images": [
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl1.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl2.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl3.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl4.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl5.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl6.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl7.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl8.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl9.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl10.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl11.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl12.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl13.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl14.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl15.webp",
+                "/src/assets/images/vehicles/LC250/platinumwhitepearl16.webp"
+            ]
+        },
+        {
+            "name": "ATTITUDE BLACK MC.",
+            "nameMn": "Одтой хар",
+            "hex": "#17171a",
+            "images": [
+                "/src/assets/images/vehicles/LC250/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "RED MC.",
+            "nameMn": "Металлик улаан",
+            "hex": "#b21f2d",
+            "images": [
+                "/src/assets/images/vehicles/LC250/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "DK. BLUE MC.",
+            "nameMn": "Хар хөх",
+            "hex": "#1f3d63",
+            "images": [
+                "/src/assets/images/vehicles/LC250/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "MASSIVE GRAY",
+            "nameMn": "Гүн саарал",
+            "hex": "#8b8f95",
+            "images": [
+                "/src/assets/images/vehicles/LC250/neutralblack1.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack2.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack3.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack4.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack5.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack6.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack7.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack8.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack9.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack10.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack11.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack12.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack13.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack14.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack15.webp",
+                "/src/assets/images/vehicles/LC250/neutralblack16.webp"
+            ]
+            },
+            {
+            "name": "URBAN ROCK",
+            "nameMn": "Чулуун саарал",
+            "hex": "#7d7267",
+            "images": [
+                "/src/assets/images/vehicles/LC250/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "AVANT-GARDE BRONZE ME.",
+            "nameMn": "Бор саарал ",
+            "hex": "#8b7663",
+            "images": [
+                "/src/assets/images/vehicles/LC250/avantgardebronze1.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze2.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze3.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze4.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze5.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze6.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze7.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze8.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze9.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze10.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze11.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze12.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze13.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze14.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze15.webp",
+                "/src/assets/images/vehicles/LC250/avantgardebronze16.webp"
+            ]
+            },
+            {
+            "name": "DK. RED M.M.",
+            "nameMn": "Улаан хүрэн",
+            "hex": "#6f1b23",
+            "images": [
+                "/src/assets/images/vehicles/LC250/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC250/attitudeblack16.webp"
+            ]
+            }
+        ],
+        "trims": [
+            { 
+                "id": "petrol", 
+                "name": "Petrol",
+                "nameMn": "Бензин",
+                "price": "₮342,300,000",
+                "priceMn": "₮342,300,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+        ]
+            },
+            { 
+                "id": "diesel",
+                "name": "Diesel",
+                "nameMn": "Дизель",
+                "price": "₮341,500,000",
+                "priceMn": "₮341,500,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.346 liters V6 with Twin turbocharger",
+                        "valueMn": "3.3L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "302",
+                        "valueMn": "302"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "5",
+                        "valueMn": "5"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 0",
+                        "valueMn": "Euro 0"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ]
+            },
+            { 
+                "id": "hev",
+                "name": "Hybrid",
+                "nameMn": "Hybrid",
+                "price": "TBD",
+                "priceMn": "TBD",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "68 + 30 liters",
+                        "valueMn": "68 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ] 
+            }
+        ]
+}

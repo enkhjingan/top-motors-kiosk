@@ -19,7 +19,16 @@ const vehicleImageModules = import.meta.glob('../../assets/images/vehicles/**/*.
 });
 
 const FEATURED_VEHICLE_ID = 'lc300';
-const QUICK_SPEC_LABELS = ['Engine', 'Power', 'Drive', 'Transmission', 'Seats', 'Fuel Tank', 'Top Speed', 'Acceleration'];
+const QUICK_SPEC_LABELS = [
+    'Engine',
+    'Transmission',
+    'Max Output HP',
+    'Drive train',
+    'Seating capacity',
+    'Max speed',
+    'Fuel tank',
+    'Emission (Euro)'
+];
 
 function resolveVehicleImage(assetPath) {
     if (!assetPath) {
@@ -72,10 +81,12 @@ function buildTrimOptions(variants, includeVariantPrefix) {
     return variants.flatMap((variant) =>
         (variant?.trims || []).map((trim) => {
             const optionId = `${variant.id}::${trim.id}`;
-            const prefixedName = includeVariantPrefix ? `${variant.name} · ${trim.name}` : trim.name;
+            const trimName = trim.name || trim.id;
+            const trimNameMn = trim.nameMn || trim.name || trim.id;
+            const prefixedName = includeVariantPrefix ? `${variant.name} · ${trimName}` : trimName;
             const prefixedNameMn = includeVariantPrefix
-                ? `${variant.nameMn || variant.name} · ${trim.nameMn || trim.name}`
-                : trim.nameMn || trim.name;
+                ? `${variant.nameMn || variant.name} · ${trimNameMn}`
+                : trimNameMn;
 
             return {
                 id: optionId,
@@ -89,12 +100,12 @@ function buildTrimOptions(variants, includeVariantPrefix) {
 }
 
 function getColorOptions(vehicle, variant, trim) {
-    if (vehicle?.colors?.length) {
-        return vehicle.colors;
-    }
-
     if (variant?.colors?.length) {
         return variant.colors;
+    }
+
+    if (vehicle?.colors?.length) {
+        return vehicle.colors;
     }
 
     return trim?.colors || [];
@@ -120,6 +131,22 @@ function buildFrameSequence(heroImage) {
     }
 
     return Array.from({ length: 16 }, (_, index) => `${prefix}${index + 1}${extension}`);
+}
+
+function getSelectedColorImages(color) {
+    if (!color) {
+        return [];
+    }
+
+    if (color.images?.length) {
+        return color.images;
+    }
+
+    if (color.heroImage) {
+        return buildFrameSequence(color.heroImage);
+    }
+
+    return [];
 }
 
 function Header({ items, selectedId, onSelect, language }) {
@@ -209,19 +236,19 @@ export default function Home() {
     }, [colorOptions, selectedColorName]);
 
     const quickSpecs = useMemo(() => {
-        const sourceSpecs = selectedTrim?.specs || [];
+        const sourceSpecs = selectedTrim?.specs?.length ? selectedTrim.specs : selectedVariant?.specs || [];
         return QUICK_SPEC_LABELS.map((label) => sourceSpecs.find((spec) => spec.label === label)).filter(Boolean);
-    }, [selectedTrim]);
+    }, [selectedTrim, selectedVariant]);
 
     const selectedColorFrames = useMemo(
-        () => buildFrameSequence(selectedColor?.heroImage ? resolveVehicleImage(selectedColor.heroImage) : ''),
+        () => getSelectedColorImages(selectedColor).map((image) => resolveVehicleImage(image)),
         [selectedColor]
     );
 
     const galleryImages = useMemo(
         () => {
-            if (selectedColorFrames.length > 1) {
-                return selectedColorFrames.map((image) => resolveVehicleImage(image));
+            if (selectedColorFrames.length > 0) {
+                return selectedColorFrames;
             }
 
             return (selectedTrim?.gallery?.length ? selectedTrim.gallery : selectedVariant?.gallery || selectedVehicle?.gallery || []).map((image) => resolveVehicleImage(image));
@@ -290,7 +317,9 @@ export default function Home() {
         setIsGalleryMode(false);
     }
 
-    const heroImage = resolveVehicleImage(selectedColor?.heroImage || selectedTrim?.gallery?.[0] || selectedVariant?.gallery?.[0] || selectedVehicle?.gallery?.[0] || '');
+    const heroImage = selectedColorFrames.length
+        ? selectedColorFrames[0]
+        : resolveVehicleImage(selectedColor?.heroImage || selectedTrim?.gallery?.[0] || selectedVariant?.gallery?.[0] || selectedVehicle?.gallery?.[0] || '');
     const mainImage = isGalleryMode ? galleryImages[activeGalleryIndex] || heroImage : heroImage;
 
     return (

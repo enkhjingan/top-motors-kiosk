@@ -1,0 +1,1499 @@
+{
+    "id": "lc300",
+    "name": "Land Cruiser 300",
+    "variants": [
+        {
+        "id": "grs",
+        "colors": [
+            {
+            "name": "Super White 2",
+            "nameMn": "Цагаан",
+            "hex": "#ffffff",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/superwhite1.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite2.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite3.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite4.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite5.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite6.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite7.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite8.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite9.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite10.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite11.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite12.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite13.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite14.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite15.webp",
+                "/src/assets/images/vehicles/LC300/GR/superwhite16.webp"
+            ]
+            },
+            {
+            "name": "WHITE PEARL CS.",
+            "nameMn": "Сувдан цагаан",
+            "hex": "#f5f5f1",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/whitepearl1.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl2.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl3.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl4.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl5.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl6.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl7.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl8.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl9.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl10.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl11.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl12.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl13.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl14.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl15.webp",
+                "/src/assets/images/vehicles/LC300/GR/whitepearl16.webp"
+            ]
+            },
+            {
+            "name": "PRECIOUS WHITE PEARL",
+            "nameMn": "Танан цагаан",
+            "hex": "#f3f1ea",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl1.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl2.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl3.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl4.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl5.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl6.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl7.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl8.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl9.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl10.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl11.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl12.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl13.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl14.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl15.webp",
+                "/src/assets/images/vehicles/LC300/GR/preciouswhitepearl16.webp"
+            ]
+            },
+            {
+            "name": "Silver Metallic",
+            "nameMn": "Мөнгөлөг",
+            "hex": "#bcc0c4",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "Gray Metallic",
+            "nameMn": "Хар саарал",
+            "hex": "#9fa3a7",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/gray1.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray2.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray3.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray4.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray5.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray6.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray7.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray8.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray9.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray10.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray11.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray12.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray13.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray14.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray15.webp",
+                "/src/assets/images/vehicles/LC300/GR/gray16.webp"
+            ]
+            },
+            {
+            "name": "BLACK",
+            "nameMn": "Хар",
+            "hex": "#111111",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/black1.webp",
+                "/src/assets/images/vehicles/LC300/GR/black2.webp",
+                "/src/assets/images/vehicles/LC300/GR/black3.webp",
+                "/src/assets/images/vehicles/LC300/GR/black4.webp",
+                "/src/assets/images/vehicles/LC300/GR/black5.webp",
+                "/src/assets/images/vehicles/LC300/GR/black6.webp",
+                "/src/assets/images/vehicles/LC300/GR/black7.webp",
+                "/src/assets/images/vehicles/LC300/GR/black8.webp",
+                "/src/assets/images/vehicles/LC300/GR/black9.webp",
+                "/src/assets/images/vehicles/LC300/GR/black10.webp",
+                "/src/assets/images/vehicles/LC300/GR/black11.webp",
+                "/src/assets/images/vehicles/LC300/GR/black12.webp",
+                "/src/assets/images/vehicles/LC300/GR/black13.webp",
+                "/src/assets/images/vehicles/LC300/GR/black14.webp",
+                "/src/assets/images/vehicles/LC300/GR/black15.webp",
+                "/src/assets/images/vehicles/LC300/GR/black16.webp"
+            ]
+            },
+            {
+            "name": "ATTITUDE BLACK MC.",
+            "nameMn": "Одтой хар",
+            "hex": "#17171a",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC300/GR/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "DK. RED M.M.",
+            "nameMn": "Улаан хүрэн",
+            "hex": "#6f1b23",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GR/dkred1.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred2.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred3.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred4.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred5.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred6.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred7.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred8.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred9.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred10.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred11.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred12.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred13.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred14.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred15.webp",
+                "/src/assets/images/vehicles/LC300/GR/dkred16.webp"
+            ]
+            }
+        ],
+        "trims": [
+            { 
+                "id": "petrol", 
+                "name": "Petrol",
+                "nameMn": "Бензин",
+                "price": "₮342,300,000",
+                "priceMn": "₮342,300,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+        ]
+            },
+            { 
+                "id": "diesel",
+                "name": "Diesel",
+                "nameMn": "Дизель",
+                "price": "₮341,500,000",
+                "priceMn": "₮341,500,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.346 liters V6 with Twin turbocharger",
+                        "valueMn": "3.3L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "302",
+                        "valueMn": "302"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "5",
+                        "valueMn": "5"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 0",
+                        "valueMn": "Euro 0"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ]
+            },
+            { 
+                "id": "hev",
+                "name": "Hybrid",
+                "nameMn": "Hybrid",
+                "price": "TBD",
+                "priceMn": "TBD",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "68 + 30 liters",
+                        "valueMn": "68 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ] 
+            }
+        ]
+        },
+        {
+        "id": "zx",
+        "colors": [
+            {
+            "name": "Super White 2",
+            "nameMn": "Цагаан",
+            "hex": "#ffffff",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/white1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/white16.webp"
+            ]
+            },
+            {
+            "name": "WHITE PEARL CS.",
+            "nameMn": "Сувдан цагаан",
+            "hex": "#f5f5f1",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/whitepearl16.webp"
+            ]
+            },
+            {
+            "name": "PRECIOUS WHITE PEARL",
+            "nameMn": "Танан цагаан",
+            "hex": "#f3f1ea",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/preciouswhitepearl16.webp"
+            ]
+            },
+            {
+            "name": "Silver Metallic",
+            "nameMn": "Мөнгөлөг",
+            "hex": "#bcc0c4",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/silver1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/silver16.webp"
+            ]
+            },
+            {
+            "name": "Gray Metallic",
+            "nameMn": "Хар саарал",
+            "hex": "#9fa3a7",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/gray1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/gray16.webp"
+            ]
+            },
+            {
+            "name": "BLACK",
+            "nameMn": "Хар",
+            "hex": "#111111",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/black1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/black16.webp"
+            ]
+            },
+            {
+            "name": "ATTITUDE BLACK MC.",
+            "nameMn": "Одтой хар",
+            "hex": "#17171a",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "DK. RED M.M.",
+            "nameMn": "Улаан хүрэн",
+            "hex": "#6f1b23",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/dkred1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/dkred16.webp"
+            ]
+            },
+            {
+            "name": "AVANT-GARDE BRONZE ME.",
+            "nameMn": "Бор саарал ",
+            "hex": "#8b7663",
+            "images": [
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze1.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze2.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze3.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze4.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze5.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze6.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze7.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze8.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze9.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze10.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze11.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze12.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze13.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze14.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze15.webp",
+                "/src/assets/images/vehicles/LC300/ZX/avantgardebronze16.webp"
+            ]
+            }
+        ],
+        "trims": [
+            { 
+                "id": "petrol", 
+                "name": "Petrol",
+                "nameMn": "Бензин",
+                "price": "₮338,000,000",
+                "priceMn": "₮338,000,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+        ]
+            },
+            { 
+                "id": "hev",
+                "name": "Hybrid",
+                "nameMn": "Hybrid",
+                "price": "TBD",
+                "priceMn": "TBD",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "68 + 30 liters",
+                        "valueMn": "68 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ] 
+            }
+        ]
+        },
+        {
+        "id": "vx",
+        "colors": [
+            {
+            "name": "SUPER WHITE 2",
+            "nameMn": "Цагаан",
+            "hex": "#ffffff",
+            "images": [
+                "/src/assets/images/vehicles/LC300/VX/superwhite1.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite2.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite3.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite4.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite5.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite6.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite7.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite8.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite9.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite10.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite11.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite12.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite13.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite14.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite15.webp",
+                "/src/assets/images/vehicles/LC300/VX/superwhite16.webp"
+            ]
+            },
+            {
+            "name": "WHITE PEARL CS.",
+            "nameMn": "Сувдан цагаан",
+            "hex": "#f5f5f1",
+            "images": [
+                "/src/assets/images/vehicles/LC300/VX/whitepearl1.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl2.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl3.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl4.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl5.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl6.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl7.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl8.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl9.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl10.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl11.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl12.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl13.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl14.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl15.webp",
+                "/src/assets/images/vehicles/LC300/VX/whitepearl16.webp"
+            ]
+            },
+            {
+            "name": "BLACK",
+            "nameMn": "Хар",
+            "hex": "#111111",
+            "images": [
+                "/src/assets/images/vehicles/LC300/VX/black1.webp",
+                "/src/assets/images/vehicles/LC300/VX/black2.webp",
+                "/src/assets/images/vehicles/LC300/VX/black3.webp",
+                "/src/assets/images/vehicles/LC300/VX/black4.webp",
+                "/src/assets/images/vehicles/LC300/VX/black5.webp",
+                "/src/assets/images/vehicles/LC300/VX/black6.webp",
+                "/src/assets/images/vehicles/LC300/VX/black7.webp",
+                "/src/assets/images/vehicles/LC300/VX/black8.webp",
+                "/src/assets/images/vehicles/LC300/VX/black9.webp",
+                "/src/assets/images/vehicles/LC300/VX/black10.webp",
+                "/src/assets/images/vehicles/LC300/VX/black11.webp",
+                "/src/assets/images/vehicles/LC300/VX/black12.webp",
+                "/src/assets/images/vehicles/LC300/VX/black13.webp",
+                "/src/assets/images/vehicles/LC300/VX/black14.webp",
+                "/src/assets/images/vehicles/LC300/VX/black15.webp",
+                "/src/assets/images/vehicles/LC300/VX/black16.webp"
+            ]
+            }
+        ],
+        "trims": [
+            { 
+                "id": "petrol", 
+                "name": "Petrol",
+                "nameMn": "Бензин",
+                "price": "₮319,400,000",
+                "priceMn": "₮319,400,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+        ]
+            },
+            { 
+                "id": "hev",
+                "name": "Hybrid",
+                "nameMn": "Hybrid",
+                "price": "TBD",
+                "priceMn": "TBD",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.445 liters V6 with Twin turbocharger",
+                        "valueMn": "3.5L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "409",
+                        "valueMn": "409"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "68 + 30 liters",
+                        "valueMn": "68 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ] 
+            }
+        ]
+        },
+        {
+        "id": "gxr",
+        "colors": [
+            {
+            "name": "WHITE PEARL CS.",
+            "nameMn": "Сувдан цагаан",
+            "hex": "#f5f5f1",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl1.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl2.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl3.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl4.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl5.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl6.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl7.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl8.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl9.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl10.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl11.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl12.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl13.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl14.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl15.webp",
+                "/src/assets/images/vehicles/LC300/GXR/whitepearl16.webp"
+            ]
+            },
+            {
+            "name": "Silver Metallic",
+            "nameMn": "Мөнгөлөг",
+            "hex": "#bcc0c4",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GXR/silver1.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver2.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver3.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver4.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver5.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver6.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver7.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver8.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver9.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver10.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver11.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver12.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver13.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver14.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver15.webp",
+                "/src/assets/images/vehicles/LC300/GXR/silver16.webp"
+            ]
+            },
+            {
+            "name": "BLACK",
+            "nameMn": "Хар",
+            "hex": "#111111",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GXR/black1.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black2.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black3.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black4.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black5.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black6.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black7.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black8.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black9.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black10.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black11.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black12.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black13.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black14.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black15.webp",
+                "/src/assets/images/vehicles/LC300/GXR/black16.webp"
+            ]
+            },
+            {
+            "name": "ATTITUDE BLACK MC.",
+            "nameMn": "Одтой хар",
+            "hex": "#17171a",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack1.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack2.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack3.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack4.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack5.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack6.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack7.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack8.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack9.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack10.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack11.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack12.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack13.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack14.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack15.webp",
+                "/src/assets/images/vehicles/LC300/GXR/attitudeblack16.webp"
+            ]
+            },
+            {
+            "name": "DK. RED M.M.",
+            "nameMn": "Улаан хүрэн",
+            "hex": "#6f1b23",
+            "images": [
+                "/src/assets/images/vehicles/LC300/GXR/dkred1.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred2.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred3.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred4.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred5.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred6.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred7.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred8.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred9.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred10.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred11.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred12.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred13.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred14.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred15.webp",
+                "/src/assets/images/vehicles/LC300/GXR/dkred16.webp"
+            ]
+            }
+        ],
+        "trims": [
+            { 
+                "id": "diesel", 
+                "name": "Diesel",
+                "nameMn": "Дизель",
+                "price": "₮257,400,000",
+                "priceMn": "₮257,400,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.446 liters V6 with Twin turbocharger",
+                        "valueMn": "3.3L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "10 speed automatic",
+                        "valueMn": "10 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "302",
+                        "valueMn": "302"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "210 km/h",
+                        "valueMn": "210 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 0",
+                        "valueMn": "Euro 0"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+        ]
+            },
+            { 
+                "id": "petrol-leather",
+                "name": "Petrol (Leather)",
+                "nameMn": "Бензин (Арьсан)",
+                "price": "₮224,700,000",
+                "priceMn": "₮224,700,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "4.0 liters V6 with Twin turbocharger",
+                        "valueMn": "4.0L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "6 speed automatic",
+                        "valueMn": "6 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "271",
+                        "valueMn": "271"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "190 km/h",
+                        "valueMn": "190 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ] 
+            },
+            { 
+                "id": "petrol-winch",
+                "name": "Petrol (Winch)",
+                "nameMn": "Бензин (Winch)",
+                "price": "₮215,500,000",
+                "priceMn": "₮215,500,000",
+                "specs": [
+                    {
+                        "label": "Engine",
+                        "labelMn": "Хөдөлгүүр",
+                        "value": "3.956 liters V6 with Twin turbocharger",
+                        "valueMn": "4.0L хос турбо (V6)"
+                    },
+                    {
+                        "label": "Transmission",
+                        "labelMn": "Хурдны хайрцаг",
+                        "value": "6 speed automatic",
+                        "valueMn": "6 шатлалт автомат"
+                    },
+                    {
+                        "label": "Max Output HP",
+                        "labelMn": "Морины хүч",
+                        "value": "271",
+                        "valueMn": "271"
+                    },
+                    {
+                        "label": "Drive train",
+                        "labelMn": "Хөтлөх механизм",
+                        "value": "4WD",
+                        "valueMn": "4WD"
+                    },
+                    {
+                        "label": "Seating capacity",
+                        "labelMn": "Суудлын тоо",
+                        "value": "7",
+                        "valueMn": "7"
+                    },
+                    {
+                        "label": "Max Speed",
+                        "labelMn": "Дээд хурд",
+                        "value": "190 km/h",
+                        "valueMn": "190 km/h"
+                    },
+                    {
+                        "label": "Fuel Tank",
+                        "labelMn": "Шатахууны сав",
+                        "value": "80 + 30 liters",
+                        "valueMn": "80 + 30 литр"
+                    },
+                    {
+                        "label": "Emission (Euro)",
+                        "labelMn": "Шатахууны стандарт (Euro)",
+                        "value": "Euro 2",
+                        "valueMn": "Euro 2"
+                    }
+                ],
+                "overview": [
+                    {
+                        "label": "Dimensions",
+                        "labelMn": "Хэмжээс",
+                        "value": "Compact SUV proportions",
+                        "valueMn": "Compact SUV proportions"
+                    },
+                    {
+                        "label": "Comfort",
+                        "labelMn": "Тав тух",
+                        "value": "Premium cluster and audio",
+                        "valueMn": "Premium cluster and audio"
+                    },
+                    {
+                        "label": "Safety",
+                        "labelMn": "Аюулгүй байдал",
+                        "value": "Toyota Safety Sense",
+                        "valueMn": "Toyota Safety Sense"
+                    },
+                    {
+                        "label": "Wheels",
+                        "labelMn": "Дугуй",
+                        "value": "18 inch alloy wheels",
+                        "valueMn": "18 inch alloy wheels"
+                    },
+                    {
+                        "label": "Accessories",
+                        "labelMn": "Дагалдах",
+                        "value": "Panoramic roof",
+                        "valueMn": "Panoramic roof"
+                    }
+                ] 
+            }
+        ]
+        }
+    ]
+}

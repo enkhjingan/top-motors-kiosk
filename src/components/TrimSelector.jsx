@@ -1,9 +1,12 @@
 function localizeTrimName(trim, language) {
+    const trimName = trim.name || trim.id;
+    const trimNameMn = trim.nameMn || trim.name || trim.id;
+
     if (language === 'mn') {
-        return trim.nameMn || trim.name;
+        return trimNameMn;
     }
 
-    return trim.name;
+    return trimName;
 }
 
 function TrimSelector({ trims, selectedTrimId, onSelectTrim, language }) {
